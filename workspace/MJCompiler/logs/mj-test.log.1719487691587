@@ -1,0 +1,117 @@
+INFO  13:26:35,259 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  13:26:35,282 - #2 program
+INFO  13:26:35,282 - #28 test301
+INFO  13:26:35,282 - #28 int
+INFO  13:26:35,283 - #28 a
+INFO  13:26:35,283 - #12 ;
+INFO  13:26:35,285 - #28 int
+INFO  13:26:35,285 - #28 niz
+INFO  13:26:35,285 - #17 [
+INFO  13:26:35,285 - #18 ]
+INFO  13:26:35,285 - #12 ;
+INFO  13:26:35,285 - #15 {
+INFO  13:26:35,285 - #25 void
+INFO  13:26:35,285 - #28 main
+INFO  13:26:35,285 - #13 (
+INFO  13:26:35,285 - #14 )
+INFO  13:26:35,286 - #28 char
+INFO  13:26:35,286 - #28 b
+INFO  13:26:35,286 - #12 ;
+INFO  13:26:35,286 - #15 {
+INFO  13:26:35,286 - #28 b
+INFO  13:26:35,288 - #9 =
+INFO  13:26:35,288 - #29 b
+INFO  13:26:35,297 - #12 ;
+INFO  13:26:35,297 - #28 b
+INFO  13:26:35,297 - #23 ++
+INFO  13:26:35,297 - #12 ;
+INFO  13:26:35,298 - #16 }
+INFO  13:26:35,298 - #16 }
+INFO  13:26:35,303 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclName(
+         a
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclArray(
+       niz
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    VarDeclarationList(
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      VarDeclaration(
+        TypeName(
+         char
+        ) [TypeName]
+        VarDeclName(
+         b
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [VarDeclarationList]
+    StmtList(
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        DesStmt(
+          AssignExpr(
+            DesignatorName(
+             b
+            ) [DesignatorName]
+            Assign(
+            ) [Assign]
+            NoMinusExpr(
+              TermFactor(
+                CharFactor(
+                 b
+                ) [CharFactor]
+              ) [TermFactor]
+            ) [NoMinusExpr]
+          ) [AssignExpr]
+        ) [DesStmt]
+      ) [StmtList]
+      DesStmt(
+        Inc(
+          DesignatorName(
+           b
+          ) [DesignatorName]
+        ) [Inc]
+      ) [DesStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  13:26:35,303 - ===================================
+INFO  13:26:35,304 - Definisana globalna promenljiva []  niz na liniji 11
+INFO  13:26:35,304 - Pronadjena promenljiva b: char,0, 1 na liniji 20
+INFO  13:26:35,304 - Pronadjena promenljiva b: char,0, 1 na liniji 25
+ERROR 13:26:35,304 - Promenljiva b mora da bude int tipa!
+INFO  13:26:35,304 -  Print count calls = 0
+INFO  13:26:35,304 -  Deklarisanih promenljivih ima = 3
+INFO  13:26:35,304 - ===================================
+ERROR 13:26:35,304 - Parsiranje NIJE uspesno zavrseno!

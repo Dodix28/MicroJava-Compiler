@@ -1,0 +1,48 @@
+INFO  13:03:07,569 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  13:03:07,591 - #2 program
+INFO  13:03:07,591 - #28 test301
+INFO  13:03:07,591 - #28 intt
+INFO  13:03:07,592 - #28 a
+INFO  13:03:07,593 - #12 ;
+INFO  13:03:07,596 - #15 {
+INFO  13:03:07,596 - #25 void
+INFO  13:03:07,596 - #28 main
+INFO  13:03:07,596 - #13 (
+INFO  13:03:07,596 - #14 )
+INFO  13:03:07,596 - #15 {
+INFO  13:03:07,597 - #16 }
+INFO  13:03:07,597 - #16 }
+INFO  13:03:07,604 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       intt
+      ) [TypeName]
+      VarDeclName(
+       a
+      ) [VarDeclName]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    NoStmtList(
+    ) [NoStmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  13:03:07,606 - ===================================
+ERROR 13:03:07,608 - Nije pronadjen tip intt u tabeli simbola! GRESKA na liniji 4
+INFO  13:03:07,608 -  Print count calls = 0
+INFO  13:03:07,608 -  Deklarisanih promenljivih ima = 1
+INFO  13:03:07,608 - ===================================
+ERROR 13:03:07,608 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,28 @@
+INFO  19:18:35,407 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  19:18:35,423 - #2 program
+INFO  19:18:35,423 - #27 MyProgram
+INFO  19:18:35,423 - #27 int
+INFO  19:18:35,425 - #27 a
+INFO  19:18:35,425 - #11 ;
+INFO  19:18:35,427 - #27 int
+INFO  19:18:35,429 - #27 b
+INFO  19:18:35,429 - #11 ;
+INFO  19:18:35,430 - #27 char
+INFO  19:18:35,430 - #27 milica
+INFO  19:18:35,430 - #16 [
+INFO  19:18:35,430 - #17 ]
+INFO  19:18:35,430 - #11 ;
+INFO  19:18:35,430 - #6 const
+INFO  19:18:35,430 - #27 int
+INFO  19:18:35,430 - #27 g
+INFO  19:18:35,431 - #9 =
+INFO  19:18:35,431 - #25 5
+INFO  19:18:35,431 - #10 ,
+INFO  19:18:35,432 - #27 h
+INFO  19:18:35,432 - #9 =
+INFO  19:18:35,432 - #25 4
+INFO  19:18:35,432 - #11 ;
+INFO  19:18:35,432 - #11 ;
+ERROR 19:18:35,434 - 
+Sintaksna greska na liniji 5
+ERROR 19:18:35,434 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

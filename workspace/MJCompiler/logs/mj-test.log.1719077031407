@@ -1,0 +1,19 @@
+INFO  19:23:07,581 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  19:23:07,606 - #2 program
+INFO  19:23:07,606 - #28 test301
+INFO  19:23:07,606 - #15 {
+INFO  19:23:07,607 - #25 void
+INFO  19:23:07,607 - #28 main
+INFO  19:23:07,607 - #13 (
+INFO  19:23:07,607 - #28 a
+ERROR 19:23:07,607 - 
+Sintaksna greska na liniji 4
+INFO  19:23:07,607 - #10 ,
+INFO  19:23:07,607 - #28 b
+INFO  19:23:07,607 - #10 ,
+INFO  19:23:07,608 - #28 c
+INFO  19:23:07,609 - #14 )
+INFO  19:23:07,609 - #15 {
+INFO  19:23:07,609 - #16 }
+INFO  19:23:07,609 - #16 }
+ERROR 19:23:07,609 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

@@ -1,0 +1,353 @@
+package rs.ac.bg.etf.pp1;
+
+import org.apache.log4j.Logger;
+
+
+import rs.etf.pp1.mj.runtime.Code;
+import rs.etf.pp1.symboltable.Tab;
+import rs.etf.pp1.symboltable.concepts.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+public class CodeGenerator extends VisitorAdaptor {
+	
+	Logger log = Logger.getLogger(getClass());
+	private boolean errorDetected = false;
+	
+	public void report_error(String message, SyntaxNode info) {
+		errorDetected = true;
+		StringBuilder msg = new StringBuilder(message);
+		int line = (info == null) ? 0: info.getLine();	
+		if (line != 0)
+			msg.append (" na liniji ").append(line);
+		log.error(msg.toString());	
+	}
+
+	public void report_info(String message, SyntaxNode info) {
+		StringBuilder msg = new StringBuilder(message); 	
+		int line = (info == null) ? 0: info.getLine();
+		if (line != 0)	
+			msg.append (" na liniji ").append(line);	
+		log.info(msg.toString());
+	}
+
+	private int mainPc;
+	
+	public int getMainPc() {
+		return mainPc;
+	}
+	
+	
+	//----------------------Method---------------------------
+	
+	public void visit(MethodVoidName name) {
+		mainPc = Code.pc;
+		name.obj.setAdr(Code.pc);	//saljemo pc u obj cvor koji predstavlja nasu metodu
+		
+		//generisanje pocetnih instrukcija, svaka metoda pocinje stavljanje enter instrukcije - zaduzena da napravi
+		//aktivacioni zapis na steu - da sve parametre sa expression steka iskopira u aktivacioni zapis metode
+		//broj form parametara i lokalnih promenljivih deklarisanih unutar metode
+		//u tabelu simbola prvo se stave formalni parametri, pa deklaracije lokalnih promeljivih i tek onda kad je sve to u tabeli simbola mozemo da imamo parametre za enter instrukciju 
+		
+		//Collect local variables
+		//SyntaxNode methNode = name.getParent();
+		//VarCounter varCnt = new VarCounter();
+		//methNode.traverseTopDown(varCnt);
+		
+		//generate entry
+		Code.put(Code.enter);
+		//Code.put(varCnt.getCount());
+		Code.put(name.obj.getLevel());
+		Code.put(name.obj.getLocalSymbols().size());
+	}
+	
+	public void visit(MethodDecl methodDecl) {
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+	
+	
+	//------------------------------------------------------Designator-----------------------------
+	
+		public void visit(DesignatorName desName) {
+			SyntaxNode parent = desName.getParent();
+			if(AssignExpr.class != parent.getClass()) {
+				Code.load(desName.obj);
+			}
+		}
+		
+		public void visit(DesignatorArray desArray) {
+	
+		}
+		public void visit(DesArrIdent name ) { 
+			//ucitaj niz na stek
+				Code.load(name.obj);
+		}
+	
+	//-------------------------------------------------------Designator statement------------------
+	
+		public void visit(AssignExpr designator) {
+			Obj assign = designator.getDesignator().obj;
+			Code.store(assign);
+		}
+		
+		//RADI
+		public void visit(Inc designator) {
+			Obj inc = designator.getDesignator().obj;
+			if(inc.getKind() == Obj.Elem) {
+				Code.put(Code.dup2);
+			}
+			Code.loadConst(1);
+			Code.put(Code.add);
+			Code.store(inc);
+		}
+		
+		//RADI
+		public void visit (Dec designator) {
+			Obj dec = designator.getDesignator().obj;
+			if(dec.getKind() == Obj.Elem) {
+				Code.put(Code.dup2);
+			}
+			Code.loadConst(1);
+			Code.put(Code.sub);
+			Code.store(dec);
+		}
+	
+	//-------------------------------------------------------Statement-----------------------------
+	
+		public void visit(ReadDesignatr readDes) {
+			if(readDes.getDesignator().obj.getType() != Tab.charType) {
+				Code.put(Code.read);
+			} else {
+				Code.put(Code.bread);
+			}
+			Code.store(readDes.getDesignator().obj);
+		}
+		
+	
+
+		
+		public void visit(PrintStmt printStatement) {
+			Struct exprType = printStatement.getExpr().struct;
+			if(exprType.getKind() == Struct.Array) {
+				Struct elemType = exprType.getElemType();
+				//priprema za ispisivanje niza petljom
+				
+		        // Inicijalizacija iteratora na 0 i dužine niza
+		        Code.put(Code.dup); // Duplira niz na steku, ADRESU NIZA
+		        Code.put(Code.dup);
+		        Code.put(Code.arraylength); // Stavi dužinu niza na stek
+		        Code.put(Code.dup_x1);
+		        Code.loadConst(0); // Inicijalizacija iteratora na 0
+		        Code.put(Code.dup_x1);
+		        
+
+		        int start = Code.pc; // Početak petlje
+
+		        Code.putFalseJump(Code.gt, 0); // Ako iterator >= dužina, izađi iz petlje
+		        int exitJump = Code.pc - 2;
+
+		        Code.put(Code.dup2); // Duplira niz i iterator
+		        
+		        Code.put(Code.aload); // Učitaj element niza
+
+		        // Ispis elementa niza
+		        if (elemType == Tab.charType) {
+		            Code.loadConst(1); // Širina polja za char
+		            Code.put(Code.bprint);
+		        } else {
+		            Code.loadConst(5); // Širina polja za int i bool
+		            Code.put(Code.print);
+		        }
+
+		        Code.loadConst(1); // Povećaj iterator
+		        Code.put(Code.add);
+		        Code.put(Code.dup_x2); // Povećaj iterator na steku
+		        Code.put(Code.pop); // Pop dužine niza
+		        Code.put(Code.dup_x2);
+		        Code.put(Code.pop);
+		        Code.put(Code.dup_x2);
+		        Code.put(Code.dup_x1);
+		        Code.put(Code.pop);
+		        Code.put(Code.dup_x1);
+		        
+		       
+		        Code.putJump(start); // Vrati se na početak petlje
+
+		        Code.fixup(exitJump); // Postavi adresu za izlaz iz petlje
+
+		        Code.put(Code.pop); // Ukloni iterator sa steka
+		        Code.put(Code.pop); // Ukloni dužinu niza sa steka
+		        Code.put(Code.pop); // Ukloni niz sa steka
+		
+			}
+			else if(exprType == Tab.charType) {
+				Code.loadConst(1);
+				Code.put(Code.bprint);
+			} else {
+				//za int i bool
+				Code.loadConst(5);
+				Code.put(Code.print);
+			}
+		}
+		
+		public void visit(PrintStmts printStatement) {
+			int width = printStatement.getN2().intValue();
+			Code.loadConst(width);
+			
+			if(printStatement.getExpr().struct == Tab.charType) {
+				Code.put(Code.bprint);
+			} else {
+				Code.put(Code.print); //ovo je za int i bool-koji je takodje int
+			}
+		}
+		
+		public void visit(DesStmt desStatement) {
+		
+		}
+	
+	//-------------------------Factor--------------------------
+	
+	public void visit(NumFactor cnst) {
+		Code.loadConst(cnst.getN1().intValue());
+	/*	Obj con = Tab.insert(Obj.Con,"$",cnst.struct);	//pravimo objekat koji cemo da ucitamo na expr stek
+		con.setLevel(0);								//globalni opseg
+		con.setAdr(cnst.getN1());						//u adr polje staviti vrednost koju konstanta nosi
+		
+		Code.load(con);			//Dodati objekat konstante na stek.*/
+		report_info("Prepoznata numericka konstanta",null);
+	}
+	
+	public void visit(CharFactor cnst) {
+		Code.loadConst(cnst.getC1().charValue());
+	/*	Obj con = Tab.insert(Obj.Con,"$", cnst.struct);
+		con.setLevel(0);
+		con.setAdr(cnst.getC1());
+		
+		Code.load(con);*/
+		report_info("Prepoznata char konstanta",null);
+	}
+	
+	public void visit(Expression factor) {
+		
+	}
+	
+	//nesto mozda ne stima ovde, stavlja objekat niza na stek
+	public void visit(Var factor) {
+		if(factor.getDesignator().obj.getKind() == Obj.Elem) {
+			Code.load(factor.getDesignator().obj);
+		}
+	}
+	
+	public void visit(BoolFactor cnst) {
+		Code.loadConst(cnst.getB1().intValue());
+	/*	Obj con = Tab.insert(Obj.Con,"$", cnst.struct);
+		con.setLevel(0);
+		con.setAdr(cnst.getB1());
+		
+		Code.load(con);*/
+		report_info("Prepoznata char konstanta",null);
+	}
+	
+	
+	//RADI
+	public void visit(NewTypeExpression factor) {
+		Code.put(Code.newarray);
+		if(factor.getType().struct == Tab.charType) {
+			Code.put(0);
+		} else {
+			Code.put(1);
+		}
+	}
+	
+	public void visit(Range factor) {
+		int numOfElem = factor.struct.getNumberOfFields();
+		//vraca adresu celobrojnog niza koji je inicijalizovan svojim indexima
+		
+		//Kreiramo novi int niz
+		
+		Code.put(Code.newarray);
+		Code.put(1);
+		
+		Code.put(Code.dup); 
+		Code.put(Code.arraylength);
+		Code.put(Code.dup_x1);
+		
+		Code.loadConst(0);
+		Code.put(Code.dup2); 
+		int startLoop = Code.pc; // Označava početak petlje
+		Code.putFalseJump(Code.lt, startLoop); // Ako je indeks < dužina, skoči na početak petlje
+		
+		Code.put(Code.dup_x1);
+		Code.put(Code.pop);
+		Code.put(Code.pop);
+		Code.put(Code.dup);
+		Code.put(Code.dup_x2);
+		Code.put(Code.astore);
+		
+		Code.loadConst(1);
+		Code.put(Code.add);
+		Code.put(Code.dup_x2);
+		Code.put(Code.pop);
+		Code.put(Code.dup_x2);
+		Code.put(Code.pop);
+		Code.put(Code.dup_x2);
+		Code.put(Code.dup_x2);
+		Code.put(Code.pop);
+		Code.put(Code.dup_x1);
+		Code.put(Code.pop);
+		Code.put(Code.dup_x2);
+		Code.put(Code.dup_x1);
+		Code.put(Code.pop);
+
+	    int endLoop = Code.pc-2;
+	    Code.putJump(startLoop); // Skok na početak petlje
+	    Code.fixup(endLoop); // Popravljanje adrese za kraj petlje
+
+	        // Postavljanje tipa strukture
+	    factor.struct = new Struct(Struct.Array, Tab.intType);
+		
+		
+	}
+	
+	//---------------------------------------------------Term-----------------------
+	
+	public void visit(TermFactor t) {
+		
+	}
+	
+	//RADI
+	public void visit(TermMulop t) {
+		if(t.getMulop().getClass() == Multiply.class) {
+			Code.put(Code.mul);
+		} else {
+			if(t.getMulop().getClass() == Divide.class) {
+				Code.put(Code.div);
+			} else {
+				Code.put(Code.rem);
+			}
+		}
+	}
+	//---------------------------------------------------Expression-----------------
+	
+		//RADI
+		public void visit(MinusExpr e) {
+			Code.put(Code.neg);
+		}
+		
+		public void visit(NoMinusExpr e) {
+			
+		}
+		
+		//RADI
+		public void visit(AddopExpression e) {
+			if(e.getAddop().getClass() == Plus.class) {
+				Code.put(Code.add);
+			} else {
+				Code.put(Code.sub);
+		}
+			
+		}
+	
+	
+}

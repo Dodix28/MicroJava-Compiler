@@ -1,0 +1,113 @@
+INFO  19:30:02,932 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  19:30:02,947 - #2 program
+INFO  19:30:02,947 - #27 MyProgram
+INFO  19:30:02,947 - #27 int
+INFO  19:30:02,948 - #27 a
+INFO  19:30:02,948 - #11 ;
+INFO  19:30:02,949 - #27 int
+INFO  19:30:02,950 - #27 b
+INFO  19:30:02,950 - #11 ;
+INFO  19:30:02,950 - #6 const
+INFO  19:30:02,950 - #27 bool
+INFO  19:30:02,950 - #27 milica9
+INFO  19:30:02,950 - #9 =
+INFO  19:30:02,950 - #26 0
+INFO  19:30:02,951 - #11 ;
+INFO  19:30:02,952 - #27 char
+INFO  19:30:02,953 - #27 milica
+INFO  19:30:02,953 - #16 [
+INFO  19:30:02,953 - #17 ]
+INFO  19:30:02,953 - #11 ;
+INFO  19:30:02,953 - #6 const
+INFO  19:30:02,954 - #27 int
+INFO  19:30:02,954 - #27 g
+INFO  19:30:02,954 - #9 =
+INFO  19:30:02,954 - #25 5
+INFO  19:30:02,954 - #10 ,
+INFO  19:30:02,955 - #27 h
+INFO  19:30:02,955 - #9 =
+INFO  19:30:02,955 - #25 4
+INFO  19:30:02,955 - #11 ;
+INFO  19:30:02,955 - #14 {
+INFO  19:30:02,955 - #19 *
+INFO  19:30:02,956 - #15 }
+INFO  19:30:02,959 - ProgramDerived1(
+  ProgramNameDerived1(
+   MyProgram
+  ) [ProgramNameDerived1]
+  DeclListDerived2(
+    DeclListDerived1(
+      DeclListDerived2(
+        DeclListDerived1(
+          DeclListDerived1(
+            DeclListDerived3(
+            ) [DeclListDerived3]
+            VarDeclDerived1(
+              TypeDerived1(
+               int
+              ) [TypeDerived1]
+              VarDeclIdentDerived1(
+               a
+              ) [VarDeclIdentDerived1]
+              VarDeclsDerived2(
+              ) [VarDeclsDerived2]
+            ) [VarDeclDerived1]
+          ) [DeclListDerived1]
+          VarDeclDerived1(
+            TypeDerived1(
+             int
+            ) [TypeDerived1]
+            VarDeclIdentDerived1(
+             b
+            ) [VarDeclIdentDerived1]
+            VarDeclsDerived2(
+            ) [VarDeclsDerived2]
+          ) [VarDeclDerived1]
+        ) [DeclListDerived1]
+        ConstDeclDerived1(
+          TypeDerived1(
+           bool
+          ) [TypeDerived1]
+          ConstantaDerived2(
+           milica9
+           0
+          ) [ConstantaDerived2]
+          ConstDeclListDerived2(
+          ) [ConstDeclListDerived2]
+        ) [ConstDeclDerived1]
+      ) [DeclListDerived2]
+      VarDeclDerived1(
+        TypeDerived1(
+         char
+        ) [TypeDerived1]
+        VarDeclIdentDerived2(
+         milica
+        ) [VarDeclIdentDerived2]
+        VarDeclsDerived2(
+        ) [VarDeclsDerived2]
+      ) [VarDeclDerived1]
+    ) [DeclListDerived1]
+    ConstDeclDerived1(
+      TypeDerived1(
+       int
+      ) [TypeDerived1]
+      ConstantaDerived1(
+       g
+       5
+      ) [ConstantaDerived1]
+      ConstDeclListDerived1(
+        ConstDeclListDerived2(
+        ) [ConstDeclListDerived2]
+        ConstantaDerived1(
+         h
+         4
+        ) [ConstantaDerived1]
+      ) [ConstDeclListDerived1]
+    ) [ConstDeclDerived1]
+  ) [DeclListDerived2]
+  MulopDerived1(
+  ) [MulopDerived1]
+) [ProgramDerived1]
+INFO  19:30:02,960 - ===================================
+INFO  19:30:02,961 -  Print count calls = 0
+INFO  19:30:02,961 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,162 @@
+INFO  20:45:15,249 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  20:45:15,284 - #2 program
+INFO  20:45:15,285 - #28 test301
+INFO  20:45:15,285 - #6 const
+INFO  20:45:15,286 - #28 int
+INFO  20:45:15,286 - #28 nula
+INFO  20:45:15,286 - #9 =
+INFO  20:45:15,286 - #26 0
+INFO  20:45:15,287 - #12 ;
+INFO  20:45:15,289 - #6 const
+INFO  20:45:15,289 - #28 int
+INFO  20:45:15,289 - #28 jedan
+INFO  20:45:15,289 - #9 =
+INFO  20:45:15,290 - #26 1
+INFO  20:45:15,290 - #12 ;
+INFO  20:45:15,290 - #6 const
+INFO  20:45:15,290 - #28 int
+INFO  20:45:15,290 - #28 pet
+INFO  20:45:15,290 - #9 =
+INFO  20:45:15,290 - #26 5
+INFO  20:45:15,290 - #12 ;
+INFO  20:45:15,290 - #28 int
+INFO  20:45:15,290 - #28 niz
+INFO  20:45:15,291 - #17 [
+INFO  20:45:15,291 - #18 ]
+INFO  20:45:15,291 - #10 ,
+INFO  20:45:15,291 - #28 niz2
+INFO  20:45:15,291 - #17 [
+INFO  20:45:15,291 - #18 ]
+INFO  20:45:15,292 - #12 ;
+INFO  20:45:15,292 - #28 char
+INFO  20:45:15,292 - #28 nizch
+INFO  20:45:15,292 - #17 [
+INFO  20:45:15,292 - #18 ]
+INFO  20:45:15,292 - #12 ;
+INFO  20:45:15,292 - #15 {
+INFO  20:45:15,292 - #25 void
+INFO  20:45:15,292 - #28 main
+INFO  20:45:15,292 - #13 (
+INFO  20:45:15,292 - #14 )
+INFO  20:45:15,292 - #28 int
+INFO  20:45:15,293 - #28 bodovi
+INFO  20:45:15,293 - #12 ;
+INFO  20:45:15,293 - #28 bool
+INFO  20:45:15,293 - #28 bt
+INFO  20:45:15,293 - #12 ;
+INFO  20:45:15,293 - #15 {
+INFO  20:45:15,293 - #16 }
+INFO  20:45:15,294 - #16 }
+INFO  20:45:15,298 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      DeclConst(
+        DeclConst(
+          DeclConst(
+            NoDecl(
+            ) [NoDecl]
+            ConstDeclarations(
+              TypeName(
+               int
+              ) [TypeName]
+              NumConst(
+               nula
+               0
+              ) [NumConst]
+              NoConstDecls(
+              ) [NoConstDecls]
+            ) [ConstDeclarations]
+          ) [DeclConst]
+          ConstDeclarations(
+            TypeName(
+             int
+            ) [TypeName]
+            NumConst(
+             jedan
+             1
+            ) [NumConst]
+            NoConstDecls(
+            ) [NoConstDecls]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        ConstDeclarations(
+          TypeName(
+           int
+          ) [TypeName]
+          NumConst(
+           pet
+           5
+          ) [NumConst]
+          NoConstDecls(
+          ) [NoConstDecls]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclArray(
+         niz
+        ) [VarDeclArray]
+        VarDeclrs(
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+          VarDeclArray(
+           niz2
+          ) [VarDeclArray]
+        ) [VarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       char
+      ) [TypeName]
+      VarDeclArray(
+       nizch
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    VarDeclarationList(
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclaration(
+          TypeName(
+           int
+          ) [TypeName]
+          VarDeclName(
+           bodovi
+          ) [VarDeclName]
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      VarDeclaration(
+        TypeName(
+         bool
+        ) [TypeName]
+        VarDeclName(
+         bt
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [VarDeclarationList]
+    NoStmtList(
+    ) [NoStmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  20:45:15,299 - ===================================
+INFO  20:45:15,301 -  Print count calls = 0
+INFO  20:45:15,301 -  Deklarisanih promenljivih ima = 5
+INFO  20:45:15,301 - ===================================
+INFO  20:45:15,301 - Parsiranje uspesno zavrseno!

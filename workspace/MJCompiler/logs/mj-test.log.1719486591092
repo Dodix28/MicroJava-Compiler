@@ -1,0 +1,100 @@
+INFO  13:09:16,526 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  13:09:16,547 - #2 program
+INFO  13:09:16,547 - #28 test301
+INFO  13:09:16,547 - #6 const
+INFO  13:09:16,548 - #28 int
+INFO  13:09:16,548 - #28 x
+INFO  13:09:16,548 - #9 =
+INFO  13:09:16,548 - #27 1
+INFO  13:09:16,548 - #12 ;
+INFO  13:09:16,549 - #28 int
+INFO  13:09:16,549 - #28 a
+INFO  13:09:16,549 - #12 ;
+INFO  13:09:16,550 - #28 int
+INFO  13:09:16,550 - #28 niz
+INFO  13:09:16,551 - #17 [
+INFO  13:09:16,551 - #18 ]
+INFO  13:09:16,551 - #12 ;
+INFO  13:09:16,551 - #15 {
+INFO  13:09:16,551 - #25 void
+INFO  13:09:16,551 - #28 main
+INFO  13:09:16,551 - #13 (
+INFO  13:09:16,551 - #14 )
+INFO  13:09:16,551 - #28 char
+INFO  13:09:16,552 - #28 b
+INFO  13:09:16,553 - #12 ;
+INFO  13:09:16,553 - #15 {
+INFO  13:09:16,553 - #16 }
+INFO  13:09:16,554 - #16 }
+INFO  13:09:16,561 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          TypeName(
+           int
+          ) [TypeName]
+          BoolConst(
+           x
+           1
+          ) [BoolConst]
+          NoConstDecls(
+          ) [NoConstDecls]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclName(
+         a
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclArray(
+       niz
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    VarDeclarationList(
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      VarDeclaration(
+        TypeName(
+         char
+        ) [TypeName]
+        VarDeclName(
+         b
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [VarDeclarationList]
+    NoStmtList(
+    ) [NoStmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  13:09:16,561 - ===================================
+ERROR 13:09:16,563 - Zabranjena dodela za x GRESKA na liniji 8
+INFO  13:09:16,563 - Definisana globalna promenljiva []  niz na liniji 11
+INFO  13:09:16,564 -  Print count calls = 0
+INFO  13:09:16,564 -  Deklarisanih promenljivih ima = 3
+INFO  13:09:16,564 - ===================================
+ERROR 13:09:16,564 - Parsiranje NIJE uspesno zavrseno!

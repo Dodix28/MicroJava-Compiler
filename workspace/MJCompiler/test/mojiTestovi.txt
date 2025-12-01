@@ -1,0 +1,36 @@
+//Semanticke greske  
+
+// Test301
+
+program test301
+//pogresan nepostojeci tip
+//	intt a;
+
+//pogresna dodela za konstante
+//const int x = true;
+
+int a;
+int niz[];
+{
+	void main()	
+	//vec definisana promenljiva
+	//char a;
+	
+	char b;
+	
+	{
+	a = 1;
+	b = 'b';
+	//neispravna dodela po tipovima
+	//a = b;
+	
+	//za inc i dec designator mora biti tipa int
+	//b++;
+	
+	//nisu kompatibilni tipovi za dodelu
+	//a = a + b;
+	//a = a / b;
+	}
+}
+
+

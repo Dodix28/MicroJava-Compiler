@@ -1,0 +1,7 @@
+INFO  17:38:01,993 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  17:38:02,023 - #2 program
+INFO  17:38:02,023 - #27 MyProgram
+INFO  17:38:02,023 - #27 bool
+ERROR 17:38:02,024 - 
+Sintaksna greska na liniji 2
+ERROR 17:38:02,024 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

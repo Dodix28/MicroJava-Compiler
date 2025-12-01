@@ -1,0 +1,103 @@
+INFO  00:06:11,742 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  00:06:11,786 - #2 program
+INFO  00:06:11,786 - #28 test301
+INFO  00:06:11,786 - #28 int
+INFO  00:06:11,788 - #28 bodovi
+INFO  00:06:11,789 - #12 ;
+INFO  00:06:11,791 - #15 {
+INFO  00:06:11,792 - #25 void
+INFO  00:06:11,792 - #28 main
+INFO  00:06:11,792 - #13 (
+INFO  00:06:11,793 - #14 )
+INFO  00:06:11,793 - #15 {
+INFO  00:06:11,794 - #28 bodovi
+INFO  00:06:11,795 - #9 =
+INFO  00:06:11,795 - #26 3
+INFO  00:06:11,796 - #12 ;
+INFO  00:06:11,797 - #7 read
+INFO  00:06:11,798 - #13 (
+INFO  00:06:11,798 - #28 bodovi
+INFO  00:06:11,798 - #14 )
+INFO  00:06:11,798 - #12 ;
+INFO  00:06:11,798 - #3 print
+INFO  00:06:11,798 - #13 (
+INFO  00:06:11,807 - #28 bodovi
+INFO  00:06:11,807 - #14 )
+INFO  00:06:11,807 - #12 ;
+INFO  00:06:11,807 - #16 }
+INFO  00:06:11,808 - #16 }
+INFO  00:06:11,818 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclName(
+       bodovi
+      ) [VarDeclName]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          DesStmt(
+            AssignExpr(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+              Assign(
+              ) [Assign]
+              NoMinusExpr(
+                TermFactor(
+                  NumFactor(
+                   3
+                  ) [NumFactor]
+                ) [TermFactor]
+              ) [NoMinusExpr]
+            ) [AssignExpr]
+          ) [DesStmt]
+        ) [StmtList]
+        ReadDesignatr(
+          DesignatorName(
+           bodovi
+          ) [DesignatorName]
+        ) [ReadDesignatr]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  00:06:11,819 - ===================================
+INFO  00:06:11,821 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 8
+INFO  00:06:11,821 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 9
+INFO  00:06:11,821 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 10
+INFO  00:06:11,821 -  Print count calls = 1
+INFO  00:06:11,822 -  Deklarisanih promenljivih ima = 1
+INFO  00:06:11,822 - ===================================
+INFO  00:06:11,826 - Prepoznata numericka konstanta
+INFO  00:06:11,827 - Parsiranje uspesno zavrseno!

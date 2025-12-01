@@ -1,0 +1,32 @@
+INFO  19:23:51,420 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  19:23:51,452 - #2 program
+INFO  19:23:51,452 - #28 test301
+INFO  19:23:51,452 - #15 {
+INFO  19:23:51,453 - #25 void
+INFO  19:23:51,453 - #28 main
+INFO  19:23:51,453 - #13 (
+INFO  19:23:51,454 - #14 )
+INFO  19:23:51,454 - #15 {
+INFO  19:23:51,455 - #16 }
+INFO  19:23:51,456 - #16 }
+INFO  19:23:51,467 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDecl(
+  ) [NoDecl]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    NoStmtList(
+    ) [NoStmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  19:23:51,468 - ===================================
+INFO  19:23:51,472 -  Print count calls = 0
+INFO  19:23:51,472 -  Deklarisanih promenljivih ima = 0
+INFO  19:23:51,472 - ===================================
+INFO  19:23:51,475 - Parsiranje uspesno zavrseno!

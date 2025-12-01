@@ -1,0 +1,218 @@
+INFO  18:50:54,994 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  18:50:55,023 - #2 program
+INFO  18:50:55,023 - #28 test301
+INFO  18:50:55,023 - #28 int
+INFO  18:50:55,024 - #28 niz
+INFO  18:50:55,024 - #17 [
+INFO  18:50:55,024 - #18 ]
+INFO  18:50:55,024 - #12 ;
+INFO  18:50:55,025 - #15 {
+INFO  18:50:55,025 - #25 void
+INFO  18:50:55,025 - #28 main
+INFO  18:50:55,026 - #13 (
+INFO  18:50:55,026 - #14 )
+INFO  18:50:55,026 - #15 {
+INFO  18:50:55,026 - #28 niz
+INFO  18:50:55,027 - #9 =
+INFO  18:50:55,027 - #5 new
+INFO  18:50:55,028 - #28 int
+INFO  18:50:55,028 - #17 [
+INFO  18:50:55,028 - #26 3
+INFO  18:50:55,028 - #18 ]
+INFO  18:50:55,029 - #12 ;
+INFO  18:50:55,029 - #28 niz
+INFO  18:50:55,030 - #17 [
+INFO  18:50:55,030 - #26 0
+INFO  18:50:55,030 - #18 ]
+INFO  18:50:55,030 - #9 =
+INFO  18:50:55,030 - #26 1
+INFO  18:50:55,030 - #12 ;
+INFO  18:50:55,030 - #28 niz
+INFO  18:50:55,030 - #17 [
+INFO  18:50:55,030 - #26 1
+INFO  18:50:55,030 - #18 ]
+INFO  18:50:55,031 - #9 =
+INFO  18:50:55,031 - #26 2
+INFO  18:50:55,031 - #12 ;
+INFO  18:50:55,031 - #28 niz
+INFO  18:50:55,031 - #17 [
+INFO  18:50:55,031 - #26 2
+INFO  18:50:55,031 - #18 ]
+INFO  18:50:55,031 - #9 =
+INFO  18:50:55,031 - #26 3
+INFO  18:50:55,031 - #12 ;
+INFO  18:50:55,031 - #3 print
+INFO  18:50:55,031 - #13 (
+INFO  18:50:55,032 - #28 niz
+INFO  18:50:55,032 - #14 )
+INFO  18:50:55,032 - #12 ;
+INFO  18:50:55,032 - #16 }
+INFO  18:50:55,032 - #16 }
+INFO  18:50:55,037 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclArray(
+       niz
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              NoStmtList(
+              ) [NoStmtList]
+              DesStmt(
+                AssignExpr(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  Assign(
+                  ) [Assign]
+                  NoMinusExpr(
+                    TermFactor(
+                      NewTypeExpression(
+                        TypeName(
+                         int
+                        ) [TypeName]
+                        NoMinusExpr(
+                          TermFactor(
+                            NumFactor(
+                             3
+                            ) [NumFactor]
+                          ) [TermFactor]
+                        ) [NoMinusExpr]
+                      ) [NewTypeExpression]
+                    ) [TermFactor]
+                  ) [NoMinusExpr]
+                ) [AssignExpr]
+              ) [DesStmt]
+            ) [StmtList]
+            DesStmt(
+              AssignExpr(
+                DesignatorArray(
+                  DesArrIdent(
+                   niz
+                  ) [DesArrIdent]
+                  NoMinusExpr(
+                    TermFactor(
+                      NumFactor(
+                       0
+                      ) [NumFactor]
+                    ) [TermFactor]
+                  ) [NoMinusExpr]
+                ) [DesignatorArray]
+                Assign(
+                ) [Assign]
+                NoMinusExpr(
+                  TermFactor(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [TermFactor]
+                ) [NoMinusExpr]
+              ) [AssignExpr]
+            ) [DesStmt]
+          ) [StmtList]
+          DesStmt(
+            AssignExpr(
+              DesignatorArray(
+                DesArrIdent(
+                 niz
+                ) [DesArrIdent]
+                NoMinusExpr(
+                  TermFactor(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [TermFactor]
+                ) [NoMinusExpr]
+              ) [DesignatorArray]
+              Assign(
+              ) [Assign]
+              NoMinusExpr(
+                TermFactor(
+                  NumFactor(
+                   2
+                  ) [NumFactor]
+                ) [TermFactor]
+              ) [NoMinusExpr]
+            ) [AssignExpr]
+          ) [DesStmt]
+        ) [StmtList]
+        DesStmt(
+          AssignExpr(
+            DesignatorArray(
+              DesArrIdent(
+               niz
+              ) [DesArrIdent]
+              NoMinusExpr(
+                TermFactor(
+                  NumFactor(
+                   2
+                  ) [NumFactor]
+                ) [TermFactor]
+              ) [NoMinusExpr]
+            ) [DesignatorArray]
+            Assign(
+            ) [Assign]
+            NoMinusExpr(
+              TermFactor(
+                NumFactor(
+                 3
+                ) [NumFactor]
+              ) [TermFactor]
+            ) [NoMinusExpr]
+          ) [AssignExpr]
+        ) [DesStmt]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               niz
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  18:50:55,039 - ===================================
+INFO  18:50:55,042 - Definisana globalna promenljiva []  niz na liniji 5
+INFO  18:50:55,042 - Pronadjena promenljiva niz: array,0, 0 na liniji 9
+INFO  18:50:55,042 - Pronadjena promenljiva[] niz: array,0, 0 na liniji 10
+INFO  18:50:55,042 - Pronadjena promenljiva[] niz: array,0, 0 na liniji 11
+INFO  18:50:55,042 - Pronadjena promenljiva[] niz: array,0, 0 na liniji 12
+INFO  18:50:55,043 - Pronadjena promenljiva niz: array,0, 0 na liniji 14
+INFO  18:50:55,043 - Pronađen niz u print naredbi, ispis svih elemenata niza. na liniji 14
+INFO  18:50:55,043 -  Print count calls = 1
+INFO  18:50:55,043 -  Deklarisanih promenljivih ima = 1
+INFO  18:50:55,043 - ===================================
+INFO  18:50:55,045 - Prepoznata numericka konstanta
+INFO  18:50:55,045 - Prepoznata numericka konstanta
+INFO  18:50:55,045 - Prepoznata numericka konstanta
+INFO  18:50:55,045 - Prepoznata numericka konstanta
+INFO  18:50:55,045 - Prepoznata numericka konstanta
+INFO  18:50:55,045 - Prepoznata numericka konstanta
+INFO  18:50:55,045 - Prepoznata numericka konstanta
+INFO  18:50:55,046 - Parsiranje uspesno zavrseno!

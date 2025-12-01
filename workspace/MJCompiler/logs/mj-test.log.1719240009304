@@ -1,0 +1,96 @@
+INFO  15:06:37,023 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  15:06:37,052 - #2 program
+INFO  15:06:37,052 - #28 test301
+INFO  15:06:37,052 - #28 int
+INFO  15:06:37,053 - #28 x
+INFO  15:06:37,053 - #12 ;
+INFO  15:06:37,054 - #28 int
+INFO  15:06:37,055 - #28 y
+INFO  15:06:37,055 - #12 ;
+INFO  15:06:37,055 - #15 {
+INFO  15:06:37,055 - #25 void
+INFO  15:06:37,055 - #28 main
+INFO  15:06:37,055 - #13 (
+INFO  15:06:37,055 - #14 )
+INFO  15:06:37,055 - #15 {
+INFO  15:06:37,056 - #3 print
+INFO  15:06:37,056 - #13 (
+INFO  15:06:37,056 - #26 1
+INFO  15:06:37,058 - #14 )
+INFO  15:06:37,058 - #12 ;
+INFO  15:06:37,058 - #3 print
+INFO  15:06:37,058 - #13 (
+INFO  15:06:37,058 - #26 2
+INFO  15:06:37,058 - #14 )
+INFO  15:06:37,058 - #12 ;
+INFO  15:06:37,058 - #16 }
+INFO  15:06:37,058 - #16 }
+INFO  15:06:37,065 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclName(
+         x
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclName(
+       y
+      ) [VarDeclName]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        PrintStmt(
+          NoMinusExpr(
+            TermFactor(
+              NumFactor(
+               1
+              ) [NumFactor]
+            ) [TermFactor]
+          ) [NoMinusExpr]
+        ) [PrintStmt]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            NumFactor(
+             2
+            ) [NumFactor]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  15:06:37,065 - ===================================
+INFO  15:06:37,067 -  Print count calls = 2
+INFO  15:06:37,067 -  Deklarisanih promenljivih ima = 2
+INFO  15:06:37,067 - ===================================
+INFO  15:06:37,069 - PRepoznata konstanta
+INFO  15:06:37,071 - PRepoznata konstanta
+INFO  15:06:37,071 - Parsiranje uspesno zavrseno!

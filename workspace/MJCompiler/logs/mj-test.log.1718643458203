@@ -1,0 +1,32 @@
+INFO  18:55:53,672 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  18:55:53,688 - #2 program
+INFO  18:55:53,689 - #27 MyProgram
+INFO  18:55:53,689 - #27 char
+INFO  18:55:53,690 - #27 a
+INFO  18:55:53,690 - #16 [
+INFO  18:55:53,690 - #17 ]
+INFO  18:55:53,691 - #10 ,
+INFO  18:55:53,692 - #27 b
+INFO  18:55:53,692 - #10 ,
+INFO  18:55:53,692 - #27 g
+INFO  18:55:53,692 - #16 [
+INFO  18:55:53,692 - #17 ]
+INFO  18:55:53,693 - #11 ;
+INFO  18:55:53,693 - #27 int
+INFO  18:55:53,693 - #27 d
+INFO  18:55:53,693 - #10 ,
+INFO  18:55:53,693 - #27 dnfdjs
+INFO  18:55:53,694 - #16 [
+INFO  18:55:53,694 - #17 ]
+INFO  18:55:53,694 - #11 ;
+INFO  18:55:53,694 - #27 bool
+INFO  18:55:53,694 - #27 milica1
+INFO  18:55:53,695 - #10 ,
+INFO  18:55:53,695 - #27 milica2
+INFO  18:55:53,695 - #16 [
+INFO  18:55:53,695 - #17 ]
+INFO  18:55:53,695 - #11 ;
+INFO  18:55:53,695 - #6 const
+ERROR 18:55:53,695 - 
+Sintaksna greska na liniji 6
+ERROR 18:55:53,696 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

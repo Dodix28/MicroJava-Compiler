@@ -1,0 +1,167 @@
+INFO  13:35:46,865 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  13:35:46,918 - #2 program
+INFO  13:35:46,918 - #28 test301
+INFO  13:35:46,918 - #6 const
+INFO  13:35:46,918 - #28 int
+INFO  13:35:46,919 - #28 nula
+INFO  13:35:46,919 - #9 =
+INFO  13:35:46,919 - #26 0
+INFO  13:35:46,919 - #12 ;
+INFO  13:35:46,919 - #6 const
+INFO  13:35:46,920 - #28 int
+INFO  13:35:46,920 - #28 jedan
+INFO  13:35:46,920 - #9 =
+INFO  13:35:46,920 - #26 1
+INFO  13:35:46,920 - #12 ;
+INFO  13:35:46,920 - #6 const
+INFO  13:35:46,920 - #28 int
+INFO  13:35:46,920 - #28 pet
+INFO  13:35:46,920 - #9 =
+INFO  13:35:46,920 - #26 5
+INFO  13:35:46,920 - #12 ;
+INFO  13:35:46,920 - #28 int
+INFO  13:35:46,920 - #28 niz
+INFO  13:35:46,920 - #17 [
+INFO  13:35:46,920 - #18 ]
+INFO  13:35:46,920 - #10 ,
+INFO  13:35:46,922 - #28 niz2
+INFO  13:35:46,922 - #17 [
+INFO  13:35:46,922 - #18 ]
+INFO  13:35:46,922 - #12 ;
+INFO  13:35:46,922 - #28 char
+INFO  13:35:46,923 - #28 nizch
+INFO  13:35:46,923 - #17 [
+INFO  13:35:46,923 - #18 ]
+INFO  13:35:46,923 - #12 ;
+INFO  13:35:46,923 - #15 {
+INFO  13:35:46,923 - #25 void
+INFO  13:35:46,923 - #28 main
+INFO  13:35:46,923 - #13 (
+INFO  13:35:46,923 - #14 )
+INFO  13:35:46,923 - #15 {
+INFO  13:35:46,924 - #3 print
+INFO  13:35:46,924 - #13 (
+INFO  13:35:46,924 - #26 1
+INFO  13:35:46,924 - #14 )
+INFO  13:35:46,924 - #12 ;
+INFO  13:35:46,924 - #3 print
+INFO  13:35:46,926 - #13 (
+INFO  13:35:46,926 - #26 2
+INFO  13:35:46,926 - #14 )
+INFO  13:35:46,926 - #12 ;
+INFO  13:35:46,926 - #16 }
+INFO  13:35:46,926 - #16 }
+INFO  13:35:46,933 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      DeclConst(
+        DeclConst(
+          DeclConst(
+            NoDecl(
+            ) [NoDecl]
+            ConstDeclarations(
+              TypeName(
+               int
+              ) [TypeName]
+              NumConst(
+               nula
+               0
+              ) [NumConst]
+              NoConstDecls(
+              ) [NoConstDecls]
+            ) [ConstDeclarations]
+          ) [DeclConst]
+          ConstDeclarations(
+            TypeName(
+             int
+            ) [TypeName]
+            NumConst(
+             jedan
+             1
+            ) [NumConst]
+            NoConstDecls(
+            ) [NoConstDecls]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        ConstDeclarations(
+          TypeName(
+           int
+          ) [TypeName]
+          NumConst(
+           pet
+           5
+          ) [NumConst]
+          NoConstDecls(
+          ) [NoConstDecls]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclArray(
+         niz
+        ) [VarDeclArray]
+        VarDeclrs(
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+          VarDeclArray(
+           niz2
+          ) [VarDeclArray]
+        ) [VarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       char
+      ) [TypeName]
+      VarDeclArray(
+       nizch
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        PrintStmt(
+          NoMinusExpr(
+            TermFactor(
+              NumFactor(
+               1
+              ) [NumFactor]
+            ) [TermFactor]
+          ) [NoMinusExpr]
+        ) [PrintStmt]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            NumFactor(
+             2
+            ) [NumFactor]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  13:35:46,933 - ===================================
+INFO  13:35:46,937 - Definisana globalna promenljiva []  niz na liniji 9
+INFO  13:35:46,937 - Definisana globalna promenljiva []  niz2 na liniji 9
+INFO  13:35:46,937 - Definisana globalna promenljiva []  nizch na liniji 10
+INFO  13:35:46,937 -  Print count calls = 2
+INFO  13:35:46,937 -  Deklarisanih promenljivih ima = 3
+INFO  13:35:46,937 - ===================================
+INFO  13:35:46,940 - Parsiranje uspesno zavrseno!

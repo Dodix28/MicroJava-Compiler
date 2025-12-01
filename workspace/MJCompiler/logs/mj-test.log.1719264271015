@@ -1,0 +1,103 @@
+INFO  23:21:40,412 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  23:21:40,435 - #2 program
+INFO  23:21:40,436 - #28 test301
+INFO  23:21:40,436 - #28 int
+INFO  23:21:40,437 - #28 niz2
+INFO  23:21:40,437 - #17 [
+INFO  23:21:40,437 - #18 ]
+INFO  23:21:40,437 - #12 ;
+INFO  23:21:40,438 - #15 {
+INFO  23:21:40,438 - #25 void
+INFO  23:21:40,438 - #28 main
+INFO  23:21:40,438 - #13 (
+INFO  23:21:40,438 - #14 )
+INFO  23:21:40,439 - #15 {
+INFO  23:21:40,439 - #28 niz2
+INFO  23:21:40,440 - #9 =
+INFO  23:21:40,440 - #11 range
+INFO  23:21:40,441 - #13 (
+INFO  23:21:40,442 - #26 8
+INFO  23:21:40,442 - #14 )
+INFO  23:21:40,442 - #12 ;
+INFO  23:21:40,442 - #3 print
+INFO  23:21:40,443 - #13 (
+INFO  23:21:40,452 - #28 niz2
+INFO  23:21:40,452 - #14 )
+INFO  23:21:40,452 - #12 ;
+INFO  23:21:40,452 - #16 }
+INFO  23:21:40,452 - #16 }
+INFO  23:21:40,457 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclArray(
+       niz2
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        DesStmt(
+          AssignExpr(
+            DesignatorName(
+             niz2
+            ) [DesignatorName]
+            Assign(
+            ) [Assign]
+            NoMinusExpr(
+              TermFactor(
+                Range(
+                  NoMinusExpr(
+                    TermFactor(
+                      NumFactor(
+                       8
+                      ) [NumFactor]
+                    ) [TermFactor]
+                  ) [NoMinusExpr]
+                ) [Range]
+              ) [TermFactor]
+            ) [NoMinusExpr]
+          ) [AssignExpr]
+        ) [DesStmt]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               niz2
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  23:21:40,457 - ===================================
+INFO  23:21:40,459 - Definisana globalna promenljiva []  niz2 na liniji 6
+INFO  23:21:40,459 - Pronadjena promenljiva niz2: array,0, 0 na liniji 10
+INFO  23:21:40,460 - Pronadjena promenljiva niz2: array,0, 0 na liniji 11
+INFO  23:21:40,460 - Pronađen niz u print naredbi, ispis svih elemenata niza. na liniji 11
+INFO  23:21:40,460 -  Print count calls = 1
+INFO  23:21:40,460 -  Deklarisanih promenljivih ima = 1
+INFO  23:21:40,460 - ===================================
+INFO  23:21:40,462 - Prepoznata numericka konstanta
+INFO  23:21:40,463 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,37 @@
+INFO  19:13:49,730 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  19:13:49,749 - #2 program
+INFO  19:13:49,749 - #27 MyProgram
+INFO  19:13:49,749 - #27 int
+INFO  19:13:49,750 - #27 a
+INFO  19:13:49,750 - #10 ,
+INFO  19:13:49,752 - #27 b
+INFO  19:13:49,752 - #11 ;
+INFO  19:13:49,752 - #14 {
+INFO  19:13:49,753 - #15 }
+INFO  19:13:49,754 - ProgramDerived1(
+  ProgramNameDerived1(
+   MyProgram
+  ) [ProgramNameDerived1]
+  DeclListDerived1(
+    DeclListDerived3(
+    ) [DeclListDerived3]
+    VarDeclDerived1(
+      TypeDerived1(
+       int
+      ) [TypeDerived1]
+      VarDeclIdentDerived1(
+       a
+      ) [VarDeclIdentDerived1]
+      VarDeclsDerived1(
+        VarDeclsDerived2(
+        ) [VarDeclsDerived2]
+        VarDeclIdentDerived1(
+         b
+        ) [VarDeclIdentDerived1]
+      ) [VarDeclsDerived1]
+    ) [VarDeclDerived1]
+  ) [DeclListDerived1]
+) [ProgramDerived1]
+INFO  19:13:49,756 - ===================================
+INFO  19:13:49,758 -  Print count calls = 0
+INFO  19:13:49,758 -  Deklarisanih promenljivih ima = 0

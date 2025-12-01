@@ -1,0 +1,234 @@
+INFO  20:45:59,354 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  20:45:59,374 - #2 program
+INFO  20:45:59,376 - #28 test301
+INFO  20:45:59,376 - #6 const
+INFO  20:45:59,376 - #28 int
+INFO  20:45:59,377 - #28 nula
+INFO  20:45:59,377 - #9 =
+INFO  20:45:59,377 - #26 0
+INFO  20:45:59,377 - #12 ;
+INFO  20:45:59,378 - #6 const
+INFO  20:45:59,378 - #28 int
+INFO  20:45:59,378 - #28 jedan
+INFO  20:45:59,378 - #9 =
+INFO  20:45:59,378 - #26 1
+INFO  20:45:59,378 - #12 ;
+INFO  20:45:59,378 - #6 const
+INFO  20:45:59,378 - #28 int
+INFO  20:45:59,378 - #28 pet
+INFO  20:45:59,378 - #9 =
+INFO  20:45:59,378 - #26 5
+INFO  20:45:59,378 - #12 ;
+INFO  20:45:59,378 - #28 int
+INFO  20:45:59,378 - #28 niz
+INFO  20:45:59,387 - #17 [
+INFO  20:45:59,387 - #18 ]
+INFO  20:45:59,388 - #10 ,
+INFO  20:45:59,390 - #28 niz2
+INFO  20:45:59,391 - #17 [
+INFO  20:45:59,391 - #18 ]
+INFO  20:45:59,391 - #12 ;
+INFO  20:45:59,391 - #28 char
+INFO  20:45:59,392 - #28 nizch
+INFO  20:45:59,392 - #17 [
+INFO  20:45:59,393 - #18 ]
+INFO  20:45:59,393 - #12 ;
+INFO  20:45:59,393 - #15 {
+INFO  20:45:59,393 - #25 void
+INFO  20:45:59,393 - #28 main
+INFO  20:45:59,393 - #13 (
+INFO  20:45:59,394 - #14 )
+INFO  20:45:59,394 - #28 int
+INFO  20:45:59,396 - #28 bodovi
+INFO  20:45:59,397 - #12 ;
+INFO  20:45:59,397 - #28 bool
+INFO  20:45:59,397 - #28 bt
+INFO  20:45:59,397 - #12 ;
+INFO  20:45:59,397 - #15 {
+INFO  20:45:59,398 - #28 bodovi
+INFO  20:45:59,399 - #9 =
+INFO  20:45:59,400 - #26 0
+INFO  20:45:59,401 - #12 ;
+INFO  20:45:59,402 - #28 bodovi
+INFO  20:45:59,402 - #23 ++
+INFO  20:45:59,402 - #12 ;
+INFO  20:45:59,402 - #28 bodovi
+INFO  20:45:59,402 - #9 =
+INFO  20:45:59,402 - #28 bodovi
+INFO  20:45:59,403 - #8 +
+INFO  20:45:59,403 - #28 jedan
+INFO  20:45:59,405 - #12 ;
+INFO  20:45:59,405 - #16 }
+INFO  20:45:59,405 - #16 }
+INFO  20:45:59,413 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      DeclConst(
+        DeclConst(
+          DeclConst(
+            NoDecl(
+            ) [NoDecl]
+            ConstDeclarations(
+              TypeName(
+               int
+              ) [TypeName]
+              NumConst(
+               nula
+               0
+              ) [NumConst]
+              NoConstDecls(
+              ) [NoConstDecls]
+            ) [ConstDeclarations]
+          ) [DeclConst]
+          ConstDeclarations(
+            TypeName(
+             int
+            ) [TypeName]
+            NumConst(
+             jedan
+             1
+            ) [NumConst]
+            NoConstDecls(
+            ) [NoConstDecls]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        ConstDeclarations(
+          TypeName(
+           int
+          ) [TypeName]
+          NumConst(
+           pet
+           5
+          ) [NumConst]
+          NoConstDecls(
+          ) [NoConstDecls]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclArray(
+         niz
+        ) [VarDeclArray]
+        VarDeclrs(
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+          VarDeclArray(
+           niz2
+          ) [VarDeclArray]
+        ) [VarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       char
+      ) [TypeName]
+      VarDeclArray(
+       nizch
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    VarDeclarationList(
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclaration(
+          TypeName(
+           int
+          ) [TypeName]
+          VarDeclName(
+           bodovi
+          ) [VarDeclName]
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      VarDeclaration(
+        TypeName(
+         bool
+        ) [TypeName]
+        VarDeclName(
+         bt
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [VarDeclarationList]
+    StmtList(
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          DesStmt(
+            AssignExpr(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+              Assign(
+              ) [Assign]
+              NoMinusExpr(
+                TermFactor(
+                  NumFactor(
+                   0
+                  ) [NumFactor]
+                ) [TermFactor]
+              ) [NoMinusExpr]
+            ) [AssignExpr]
+          ) [DesStmt]
+        ) [StmtList]
+        DesStmt(
+          Inc(
+            DesignatorName(
+             bodovi
+            ) [DesignatorName]
+          ) [Inc]
+        ) [DesStmt]
+      ) [StmtList]
+      DesStmt(
+        AssignExpr(
+          DesignatorName(
+           bodovi
+          ) [DesignatorName]
+          Assign(
+          ) [Assign]
+          AddopExpression(
+            NoMinusExpr(
+              TermFactor(
+                Var(
+                  DesignatorName(
+                   bodovi
+                  ) [DesignatorName]
+                ) [Var]
+              ) [TermFactor]
+            ) [NoMinusExpr]
+            Plus(
+            ) [Plus]
+            TermFactor(
+              Var(
+                DesignatorName(
+                 jedan
+                ) [DesignatorName]
+              ) [Var]
+            ) [TermFactor]
+          ) [AddopExpression]
+        ) [AssignExpr]
+      ) [DesStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  20:45:59,415 - ===================================
+INFO  20:45:59,419 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 15
+INFO  20:45:59,419 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 16
+INFO  20:45:59,419 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 17
+INFO  20:45:59,419 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 17
+INFO  20:45:59,420 - Pronadjena konstanta jedan: int,1, 0 na liniji 17

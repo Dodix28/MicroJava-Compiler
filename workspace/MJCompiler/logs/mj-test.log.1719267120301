@@ -1,0 +1,141 @@
+INFO  00:10:42,657 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  00:10:42,687 - #2 program
+INFO  00:10:42,687 - #28 test301
+INFO  00:10:42,687 - #28 int
+INFO  00:10:42,689 - #28 bodovi
+INFO  00:10:42,689 - #12 ;
+INFO  00:10:42,690 - #15 {
+INFO  00:10:42,691 - #25 void
+INFO  00:10:42,691 - #28 main
+INFO  00:10:42,691 - #13 (
+INFO  00:10:42,691 - #14 )
+INFO  00:10:42,691 - #15 {
+INFO  00:10:42,692 - #28 bodovi
+INFO  00:10:42,693 - #9 =
+INFO  00:10:42,693 - #26 3
+INFO  00:10:42,693 - #12 ;
+INFO  00:10:42,695 - #7 read
+INFO  00:10:42,695 - #13 (
+INFO  00:10:42,695 - #28 bodovi
+INFO  00:10:42,695 - #14 )
+INFO  00:10:42,695 - #12 ;
+INFO  00:10:42,695 - #28 bodovi
+INFO  00:10:42,697 - #9 =
+INFO  00:10:42,697 - #28 bodovi
+INFO  00:10:42,697 - #8 +
+INFO  00:10:42,697 - #26 1
+INFO  00:10:42,700 - #12 ;
+INFO  00:10:42,700 - #3 print
+INFO  00:10:42,700 - #13 (
+INFO  00:10:42,700 - #28 bodovi
+INFO  00:10:42,701 - #14 )
+INFO  00:10:42,701 - #12 ;
+INFO  00:10:42,701 - #16 }
+INFO  00:10:42,701 - #16 }
+INFO  00:10:42,707 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclName(
+       bodovi
+      ) [VarDeclName]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmtList(
+            ) [NoStmtList]
+            DesStmt(
+              AssignExpr(
+                DesignatorName(
+                 bodovi
+                ) [DesignatorName]
+                Assign(
+                ) [Assign]
+                NoMinusExpr(
+                  TermFactor(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                  ) [TermFactor]
+                ) [NoMinusExpr]
+              ) [AssignExpr]
+            ) [DesStmt]
+          ) [StmtList]
+          ReadDesignatr(
+            DesignatorName(
+             bodovi
+            ) [DesignatorName]
+          ) [ReadDesignatr]
+        ) [StmtList]
+        DesStmt(
+          AssignExpr(
+            DesignatorName(
+             bodovi
+            ) [DesignatorName]
+            Assign(
+            ) [Assign]
+            AddopExpression(
+              NoMinusExpr(
+                TermFactor(
+                  Var(
+                    DesignatorName(
+                     bodovi
+                    ) [DesignatorName]
+                  ) [Var]
+                ) [TermFactor]
+              ) [NoMinusExpr]
+              Plus(
+              ) [Plus]
+              TermFactor(
+                NumFactor(
+                 1
+                ) [NumFactor]
+              ) [TermFactor]
+            ) [AddopExpression]
+          ) [AssignExpr]
+        ) [DesStmt]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  00:10:42,707 - ===================================
+INFO  00:10:42,709 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 8
+INFO  00:10:42,710 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 9
+INFO  00:10:42,710 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 10
+INFO  00:10:42,710 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 10
+INFO  00:10:42,710 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 11
+INFO  00:10:42,710 -  Print count calls = 1
+INFO  00:10:42,710 -  Deklarisanih promenljivih ima = 1
+INFO  00:10:42,710 - ===================================
+INFO  00:10:42,712 - Prepoznata numericka konstanta
+INFO  00:10:42,713 - Prepoznata numericka konstanta
+INFO  00:10:42,713 - Parsiranje uspesno zavrseno!

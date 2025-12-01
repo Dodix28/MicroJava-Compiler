@@ -1,0 +1,91 @@
+INFO  19:18:50,717 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  19:18:50,733 - #2 program
+INFO  19:18:50,733 - #27 MyProgram
+INFO  19:18:50,733 - #27 int
+INFO  19:18:50,734 - #27 a
+INFO  19:18:50,734 - #11 ;
+INFO  19:18:50,735 - #27 int
+INFO  19:18:50,736 - #27 b
+INFO  19:18:50,736 - #11 ;
+INFO  19:18:50,736 - #27 char
+INFO  19:18:50,736 - #27 milica
+INFO  19:18:50,736 - #16 [
+INFO  19:18:50,736 - #17 ]
+INFO  19:18:50,736 - #11 ;
+INFO  19:18:50,736 - #6 const
+INFO  19:18:50,737 - #27 int
+INFO  19:18:50,737 - #27 g
+INFO  19:18:50,737 - #9 =
+INFO  19:18:50,737 - #25 5
+INFO  19:18:50,737 - #10 ,
+INFO  19:18:50,738 - #27 h
+INFO  19:18:50,738 - #9 =
+INFO  19:18:50,738 - #25 4
+INFO  19:18:50,746 - #11 ;
+INFO  19:18:50,746 - #14 {
+INFO  19:18:50,746 - #15 }
+INFO  19:18:50,747 - ProgramDerived1(
+  ProgramNameDerived1(
+   MyProgram
+  ) [ProgramNameDerived1]
+  DeclListDerived2(
+    DeclListDerived1(
+      DeclListDerived1(
+        DeclListDerived1(
+          DeclListDerived3(
+          ) [DeclListDerived3]
+          VarDecl(
+            TypeDerived1(
+             int
+            ) [TypeDerived1]
+            VarDeclIdentDerived1(
+             a
+            ) [VarDeclIdentDerived1]
+            VarDeclsDerived2(
+            ) [VarDeclsDerived2]
+          ) [VarDecl]
+        ) [DeclListDerived1]
+        VarDecl(
+          TypeDerived1(
+           int
+          ) [TypeDerived1]
+          VarDeclIdentDerived1(
+           b
+          ) [VarDeclIdentDerived1]
+          VarDeclsDerived2(
+          ) [VarDeclsDerived2]
+        ) [VarDecl]
+      ) [DeclListDerived1]
+      VarDecl(
+        TypeDerived1(
+         char
+        ) [TypeDerived1]
+        VarDeclIdentDerived2(
+         milica
+        ) [VarDeclIdentDerived2]
+        VarDeclsDerived2(
+        ) [VarDeclsDerived2]
+      ) [VarDecl]
+    ) [DeclListDerived1]
+    ConstDeclDerived1(
+      TypeDerived1(
+       int
+      ) [TypeDerived1]
+      ConstantaDerived1(
+       g
+       5
+      ) [ConstantaDerived1]
+      ConstDeclListDerived1(
+        ConstDeclListDerived2(
+        ) [ConstDeclListDerived2]
+        ConstantaDerived1(
+         h
+         4
+        ) [ConstantaDerived1]
+      ) [ConstDeclListDerived1]
+    ) [ConstDeclDerived1]
+  ) [DeclListDerived2]
+) [ProgramDerived1]
+INFO  19:18:50,748 - ===================================
+INFO  19:18:50,749 -  Print count calls = 0
+INFO  19:18:50,749 -  Deklarisanih promenljivih ima = 3

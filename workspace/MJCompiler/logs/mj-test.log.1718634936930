@@ -1,0 +1,6 @@
+INFO  16:34:28,428 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  16:34:28,434 - #2 program
+INFO  16:34:28,434 - #8 MyProgram
+ERROR 16:34:28,434 - 
+Sintaksna greska na liniji 1
+ERROR 16:34:28,434 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 1

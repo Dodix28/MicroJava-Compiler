@@ -1,0 +1,55 @@
+INFO  00:03:36,217 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  00:03:36,250 - #2 program
+INFO  00:03:36,250 - #28 test301
+INFO  00:03:36,250 - #28 int
+INFO  00:03:36,252 - #28 bodovi
+INFO  00:03:36,252 - #9 =
+ERROR 00:03:36,252 - 
+Sintaksna greska na liniji 4
+INFO  00:03:36,252 - #26 9
+INFO  00:03:36,252 - #12 ;
+INFO  00:03:36,252 - #15 {
+INFO  00:03:36,253 - #25 void
+INFO  00:03:36,253 - #28 main
+ERROR 00:03:36,253 - Izvrsen oporavak od greske u definiciji globalne promenljive do ; u liniji 8
+INFO  00:03:36,254 - #13 (
+INFO  00:03:36,255 - #14 )
+INFO  00:03:36,255 - #15 {
+INFO  00:03:36,256 - #3 print
+INFO  00:03:36,256 - #13 (
+INFO  00:03:36,256 - #28 bodovi
+INFO  00:03:36,265 - #14 )
+INFO  00:03:36,265 - #12 ;
+INFO  00:03:36,265 - #16 }
+INFO  00:03:36,265 - #16 }
+INFO  00:03:36,271 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ErrorDeclarations(
+  ) [ErrorDeclarations]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      NoStmtList(
+      ) [NoStmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  00:03:36,271 - ===================================
+ERROR 00:03:36,274 - Ime bodovinije deklarisano! na liniji 9

@@ -1,0 +1,1436 @@
+INFO  16:17:02,360 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  16:17:02,387 - #2 program
+INFO  16:17:02,387 - #28 test301
+INFO  16:17:02,387 - #6 const
+INFO  16:17:02,388 - #28 int
+INFO  16:17:02,388 - #28 nula
+INFO  16:17:02,388 - #9 =
+INFO  16:17:02,389 - #26 0
+INFO  16:17:02,389 - #12 ;
+INFO  16:17:02,389 - #6 const
+INFO  16:17:02,390 - #28 int
+INFO  16:17:02,390 - #28 jedan
+INFO  16:17:02,390 - #9 =
+INFO  16:17:02,390 - #28 s
+ERROR 16:17:02,390 - 
+Sintaksna greska na liniji 4
+INFO  16:17:02,390 - #20 *
+INFO  16:17:02,390 - #21 /
+INFO  16:17:02,390 - #26 1
+INFO  16:17:02,391 - #12 ;
+INFO  16:17:02,391 - #6 const
+INFO  16:17:02,391 - #28 int
+INFO  16:17:02,391 - #28 pet
+ERROR 16:17:02,391 - Izvrsen oporavak od greske u definiciji globalne promenljive do ; u liniji 8
+INFO  16:17:02,392 - #9 =
+INFO  16:17:02,392 - #26 5
+INFO  16:17:02,392 - #12 ;
+INFO  16:17:02,392 - #28 int
+INFO  16:17:02,392 - #28 niz
+INFO  16:17:02,392 - #17 [
+INFO  16:17:02,392 - #18 ]
+INFO  16:17:02,392 - #10 ,
+INFO  16:17:02,393 - #28 niz2
+INFO  16:17:02,393 - #17 [
+INFO  16:17:02,393 - #18 ]
+INFO  16:17:02,393 - #12 ;
+INFO  16:17:02,394 - #28 char
+INFO  16:17:02,394 - #28 nizch
+INFO  16:17:02,394 - #17 [
+INFO  16:17:02,394 - #18 ]
+INFO  16:17:02,394 - #12 ;
+INFO  16:17:02,394 - #15 {
+INFO  16:17:02,394 - #25 void
+INFO  16:17:02,396 - #28 main
+INFO  16:17:02,396 - #13 (
+INFO  16:17:02,396 - #14 )
+INFO  16:17:02,397 - #28 int
+INFO  16:17:02,397 - #28 bodovi
+INFO  16:17:02,398 - #12 ;
+INFO  16:17:02,398 - #28 bool
+INFO  16:17:02,398 - #28 bt
+INFO  16:17:02,398 - #12 ;
+INFO  16:17:02,398 - #15 {
+INFO  16:17:02,398 - #28 bodovi
+INFO  16:17:02,399 - #9 =
+INFO  16:17:02,401 - #26 0
+INFO  16:17:02,402 - #12 ;
+INFO  16:17:02,404 - #28 bodovi
+INFO  16:17:02,404 - #23 ++
+INFO  16:17:02,405 - #12 ;
+INFO  16:17:02,405 - #28 bodovi
+INFO  16:17:02,405 - #9 =
+INFO  16:17:02,405 - #28 bodovi
+INFO  16:17:02,405 - #8 +
+INFO  16:17:02,405 - #28 jedan
+INFO  16:17:02,406 - #12 ;
+INFO  16:17:02,406 - #28 bodovi
+INFO  16:17:02,406 - #9 =
+INFO  16:17:02,406 - #28 bodovi
+INFO  16:17:02,406 - #20 *
+INFO  16:17:02,406 - #28 pet
+INFO  16:17:02,407 - #12 ;
+INFO  16:17:02,407 - #28 bodovi
+INFO  16:17:02,407 - #24 --
+INFO  16:17:02,408 - #12 ;
+INFO  16:17:02,408 - #3 print
+INFO  16:17:02,408 - #13 (
+INFO  16:17:02,408 - #28 bodovi
+INFO  16:17:02,408 - #14 )
+INFO  16:17:02,408 - #12 ;
+INFO  16:17:02,408 - #28 niz
+INFO  16:17:02,408 - #9 =
+INFO  16:17:02,408 - #5 new
+INFO  16:17:02,408 - #28 int
+INFO  16:17:02,408 - #17 [
+INFO  16:17:02,408 - #26 3
+INFO  16:17:02,408 - #18 ]
+INFO  16:17:02,408 - #12 ;
+INFO  16:17:02,408 - #28 niz
+INFO  16:17:02,408 - #17 [
+INFO  16:17:02,408 - #28 nula
+INFO  16:17:02,409 - #18 ]
+INFO  16:17:02,409 - #9 =
+INFO  16:17:02,409 - #28 jedan
+INFO  16:17:02,409 - #12 ;
+INFO  16:17:02,409 - #28 niz
+INFO  16:17:02,409 - #17 [
+INFO  16:17:02,409 - #26 1
+INFO  16:17:02,409 - #18 ]
+INFO  16:17:02,409 - #9 =
+INFO  16:17:02,409 - #21 /
+ERROR 16:17:02,409 - 
+Sintaksna greska na liniji 25
+INFO  16:17:02,409 - #26 2
+INFO  16:17:02,409 - #12 ;
+INFO  16:17:02,409 - #28 niz
+INFO  16:17:02,409 - #17 [
+INFO  16:17:02,409 - #28 niz
+ERROR 16:17:02,410 - Izvrsen oporavak od greske u konstrukciji iskaza dodele do ; u liniji 25
+INFO  16:17:02,411 - #17 [
+INFO  16:17:02,411 - #28 jedan
+INFO  16:17:02,412 - #18 ]
+INFO  16:17:02,412 - #18 ]
+INFO  16:17:02,412 - #9 =
+INFO  16:17:02,412 - #28 niz
+INFO  16:17:02,412 - #17 [
+INFO  16:17:02,412 - #28 niz
+INFO  16:17:02,412 - #17 [
+INFO  16:17:02,412 - #26 0
+INFO  16:17:02,413 - #18 ]
+INFO  16:17:02,413 - #18 ]
+INFO  16:17:02,413 - #20 *
+INFO  16:17:02,413 - #26 3
+INFO  16:17:02,413 - #12 ;
+INFO  16:17:02,413 - #28 bodovi
+INFO  16:17:02,413 - #9 =
+INFO  16:17:02,413 - #28 niz
+INFO  16:17:02,413 - #17 [
+INFO  16:17:02,413 - #26 2
+INFO  16:17:02,413 - #18 ]
+INFO  16:17:02,413 - #21 /
+INFO  16:17:02,413 - #28 niz
+INFO  16:17:02,414 - #17 [
+INFO  16:17:02,414 - #26 0
+INFO  16:17:02,414 - #18 ]
+INFO  16:17:02,414 - #12 ;
+INFO  16:17:02,414 - #3 print
+INFO  16:17:02,414 - #13 (
+INFO  16:17:02,415 - #28 bodovi
+INFO  16:17:02,415 - #14 )
+INFO  16:17:02,415 - #12 ;
+INFO  16:17:02,415 - #3 print
+INFO  16:17:02,415 - #13 (
+INFO  16:17:02,415 - #28 niz
+INFO  16:17:02,415 - #17 [
+INFO  16:17:02,415 - #26 2
+INFO  16:17:02,415 - #18 ]
+INFO  16:17:02,415 - #14 )
+INFO  16:17:02,415 - #12 ;
+INFO  16:17:02,415 - #28 nizch
+INFO  16:17:02,415 - #9 =
+INFO  16:17:02,415 - #5 new
+INFO  16:17:02,415 - #28 char
+INFO  16:17:02,415 - #17 [
+INFO  16:17:02,415 - #26 3
+INFO  16:17:02,415 - #18 ]
+INFO  16:17:02,415 - #12 ;
+INFO  16:17:02,415 - #28 nizch
+INFO  16:17:02,416 - #17 [
+INFO  16:17:02,416 - #26 0
+INFO  16:17:02,416 - #18 ]
+INFO  16:17:02,416 - #9 =
+INFO  16:17:02,416 - #29 a
+INFO  16:17:02,416 - #12 ;
+INFO  16:17:02,416 - #28 nizch
+INFO  16:17:02,416 - #17 [
+INFO  16:17:02,416 - #28 jedan
+INFO  16:17:02,416 - #18 ]
+INFO  16:17:02,416 - #9 =
+INFO  16:17:02,416 - #29 b
+INFO  16:17:02,416 - #12 ;
+INFO  16:17:02,417 - #28 nizch
+INFO  16:17:02,417 - #17 [
+INFO  16:17:02,417 - #28 pet
+INFO  16:17:02,417 - #19 -
+INFO  16:17:02,417 - #26 3
+INFO  16:17:02,417 - #18 ]
+INFO  16:17:02,418 - #9 =
+INFO  16:17:02,418 - #29 c
+INFO  16:17:02,418 - #12 ;
+INFO  16:17:02,418 - #3 print
+INFO  16:17:02,418 - #13 (
+INFO  16:17:02,418 - #28 nizch
+INFO  16:17:02,418 - #17 [
+INFO  16:17:02,418 - #26 1
+INFO  16:17:02,418 - #18 ]
+INFO  16:17:02,418 - #14 )
+INFO  16:17:02,418 - #12 ;
+INFO  16:17:02,418 - #3 print
+INFO  16:17:02,418 - #13 (
+INFO  16:17:02,418 - #28 nizch
+INFO  16:17:02,418 - #17 [
+INFO  16:17:02,418 - #28 jedan
+INFO  16:17:02,418 - #20 *
+INFO  16:17:02,418 - #26 2
+INFO  16:17:02,418 - #18 ]
+INFO  16:17:02,418 - #14 )
+INFO  16:17:02,418 - #12 ;
+INFO  16:17:02,418 - #28 bodovi
+INFO  16:17:02,418 - #9 =
+INFO  16:17:02,418 - #28 bodovi
+INFO  16:17:02,420 - #8 +
+INFO  16:17:02,420 - #13 (
+INFO  16:17:02,420 - #28 pet
+INFO  16:17:02,420 - #20 *
+INFO  16:17:02,420 - #28 jedan
+INFO  16:17:02,420 - #19 -
+INFO  16:17:02,420 - #26 1
+INFO  16:17:02,420 - #14 )
+INFO  16:17:02,420 - #20 *
+INFO  16:17:02,420 - #28 bodovi
+INFO  16:17:02,420 - #19 -
+INFO  16:17:02,420 - #13 (
+INFO  16:17:02,420 - #26 3
+INFO  16:17:02,420 - #22 %
+INFO  16:17:02,421 - #26 2
+INFO  16:17:02,421 - #8 +
+INFO  16:17:02,421 - #26 3
+INFO  16:17:02,421 - #20 *
+INFO  16:17:02,421 - #26 2
+INFO  16:17:02,421 - #19 -
+INFO  16:17:02,422 - #26 3
+INFO  16:17:02,422 - #14 )
+INFO  16:17:02,422 - #12 ;
+INFO  16:17:02,422 - #3 print
+INFO  16:17:02,422 - #13 (
+INFO  16:17:02,422 - #28 bodovi
+INFO  16:17:02,422 - #14 )
+INFO  16:17:02,422 - #12 ;
+INFO  16:17:02,422 - #7 read
+INFO  16:17:02,422 - #13 (
+INFO  16:17:02,422 - #28 bodovi
+INFO  16:17:02,422 - #14 )
+INFO  16:17:02,422 - #12 ;
+INFO  16:17:02,422 - #3 print
+INFO  16:17:02,422 - #13 (
+INFO  16:17:02,422 - #28 bodovi
+INFO  16:17:02,422 - #14 )
+INFO  16:17:02,422 - #12 ;
+INFO  16:17:02,422 - #28 niz2
+INFO  16:17:02,422 - #9 =
+INFO  16:17:02,422 - #11 range
+INFO  16:17:02,422 - #13 (
+INFO  16:17:02,422 - #28 bodovi
+INFO  16:17:02,422 - #8 +
+INFO  16:17:02,422 - #26 1
+INFO  16:17:02,422 - #14 )
+INFO  16:17:02,422 - #12 ;
+INFO  16:17:02,422 - #3 print
+INFO  16:17:02,423 - #13 (
+INFO  16:17:02,423 - #28 niz2
+INFO  16:17:02,423 - #14 )
+INFO  16:17:02,423 - #12 ;
+INFO  16:17:02,423 - #16 }
+INFO  16:17:02,423 - #16 }
+INFO  16:17:02,432 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      DeclConst(
+        ErrorDeclarations(
+        ) [ErrorDeclarations]
+        ConstDeclarations(
+          TypeName(
+           int
+          ) [TypeName]
+          NumConst(
+           pet
+           5
+          ) [NumConst]
+          NoConstDecls(
+          ) [NoConstDecls]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclArray(
+         niz
+        ) [VarDeclArray]
+        VarDeclrs(
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+          VarDeclArray(
+           niz2
+          ) [VarDeclArray]
+        ) [VarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       char
+      ) [TypeName]
+      VarDeclArray(
+       nizch
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecls(
+    NoMethodDecls(
+    ) [NoMethodDecls]
+    MethodDecl(
+      VoidMethod(
+      ) [VoidMethod]
+      MethodName(
+       main
+      ) [MethodName]
+      NoMethodParams(
+      ) [NoMethodParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclaration(
+            TypeName(
+             int
+            ) [TypeName]
+            VarDeclName(
+             bodovi
+            ) [VarDeclName]
+            NoVarDeclrs(
+            ) [NoVarDeclrs]
+          ) [VarDeclaration]
+        ) [VarDeclarationList]
+        VarDeclaration(
+          TypeName(
+           bool
+          ) [TypeName]
+          VarDeclName(
+           bt
+          ) [VarDeclName]
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+        ) [VarDeclaration]
+      ) [VarDeclarationList]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  StmtList(
+                    StmtList(
+                      StmtList(
+                        StmtList(
+                          StmtList(
+                            StmtList(
+                              StmtList(
+                                StmtList(
+                                  StmtList(
+                                    StmtList(
+                                      StmtList(
+                                        StmtList(
+                                          StmtList(
+                                            StmtList(
+                                              StmtList(
+                                                StmtList(
+                                                  StmtList(
+                                                    StmtList(
+                                                      StmtList(
+                                                        NoStmtList(
+                                                        ) [NoStmtList]
+                                                        DesStmt(
+                                                          AssignExpr(
+                                                            DesignatorDerived1(
+                                                              DesignatorName(
+                                                               bodovi
+                                                              ) [DesignatorName]
+                                                              NoDesignatorExpr(
+                                                              ) [NoDesignatorExpr]
+                                                            ) [DesignatorDerived1]
+                                                            Assign(
+                                                            ) [Assign]
+                                                            Expr(
+                                                              NoMinusTermExpr(
+                                                              ) [NoMinusTermExpr]
+                                                              Term(
+                                                                NumFactor(
+                                                                 0
+                                                                ) [NumFactor]
+                                                                NoMulTerm(
+                                                                ) [NoMulTerm]
+                                                              ) [Term]
+                                                              NoAddopTermExpression(
+                                                              ) [NoAddopTermExpression]
+                                                            ) [Expr]
+                                                          ) [AssignExpr]
+                                                        ) [DesStmt]
+                                                      ) [StmtList]
+                                                      DesStmt(
+                                                        Inc(
+                                                          DesignatorDerived1(
+                                                            DesignatorName(
+                                                             bodovi
+                                                            ) [DesignatorName]
+                                                            NoDesignatorExpr(
+                                                            ) [NoDesignatorExpr]
+                                                          ) [DesignatorDerived1]
+                                                        ) [Inc]
+                                                      ) [DesStmt]
+                                                    ) [StmtList]
+                                                    DesStmt(
+                                                      AssignExpr(
+                                                        DesignatorDerived1(
+                                                          DesignatorName(
+                                                           bodovi
+                                                          ) [DesignatorName]
+                                                          NoDesignatorExpr(
+                                                          ) [NoDesignatorExpr]
+                                                        ) [DesignatorDerived1]
+                                                        Assign(
+                                                        ) [Assign]
+                                                        Expr(
+                                                          NoMinusTermExpr(
+                                                          ) [NoMinusTermExpr]
+                                                          Term(
+                                                            Var(
+                                                              DesignatorDerived1(
+                                                                DesignatorName(
+                                                                 bodovi
+                                                                ) [DesignatorName]
+                                                                NoDesignatorExpr(
+                                                                ) [NoDesignatorExpr]
+                                                              ) [DesignatorDerived1]
+                                                            ) [Var]
+                                                            NoMulTerm(
+                                                            ) [NoMulTerm]
+                                                          ) [Term]
+                                                          AddopTermExpression(
+                                                            NoAddopTermExpression(
+                                                            ) [NoAddopTermExpression]
+                                                            Plus(
+                                                            ) [Plus]
+                                                            Term(
+                                                              Var(
+                                                                DesignatorDerived1(
+                                                                  DesignatorName(
+                                                                   jedan
+                                                                  ) [DesignatorName]
+                                                                  NoDesignatorExpr(
+                                                                  ) [NoDesignatorExpr]
+                                                                ) [DesignatorDerived1]
+                                                              ) [Var]
+                                                              NoMulTerm(
+                                                              ) [NoMulTerm]
+                                                            ) [Term]
+                                                          ) [AddopTermExpression]
+                                                        ) [Expr]
+                                                      ) [AssignExpr]
+                                                    ) [DesStmt]
+                                                  ) [StmtList]
+                                                  DesStmt(
+                                                    AssignExpr(
+                                                      DesignatorDerived1(
+                                                        DesignatorName(
+                                                         bodovi
+                                                        ) [DesignatorName]
+                                                        NoDesignatorExpr(
+                                                        ) [NoDesignatorExpr]
+                                                      ) [DesignatorDerived1]
+                                                      Assign(
+                                                      ) [Assign]
+                                                      Expr(
+                                                        NoMinusTermExpr(
+                                                        ) [NoMinusTermExpr]
+                                                        Term(
+                                                          Var(
+                                                            DesignatorDerived1(
+                                                              DesignatorName(
+                                                               bodovi
+                                                              ) [DesignatorName]
+                                                              NoDesignatorExpr(
+                                                              ) [NoDesignatorExpr]
+                                                            ) [DesignatorDerived1]
+                                                          ) [Var]
+                                                          MulTerm(
+                                                            NoMulTerm(
+                                                            ) [NoMulTerm]
+                                                            Multiply(
+                                                            ) [Multiply]
+                                                            Var(
+                                                              DesignatorDerived1(
+                                                                DesignatorName(
+                                                                 pet
+                                                                ) [DesignatorName]
+                                                                NoDesignatorExpr(
+                                                                ) [NoDesignatorExpr]
+                                                              ) [DesignatorDerived1]
+                                                            ) [Var]
+                                                          ) [MulTerm]
+                                                        ) [Term]
+                                                        NoAddopTermExpression(
+                                                        ) [NoAddopTermExpression]
+                                                      ) [Expr]
+                                                    ) [AssignExpr]
+                                                  ) [DesStmt]
+                                                ) [StmtList]
+                                                DesStmt(
+                                                  Dec(
+                                                    DesignatorDerived1(
+                                                      DesignatorName(
+                                                       bodovi
+                                                      ) [DesignatorName]
+                                                      NoDesignatorExpr(
+                                                      ) [NoDesignatorExpr]
+                                                    ) [DesignatorDerived1]
+                                                  ) [Dec]
+                                                ) [DesStmt]
+                                              ) [StmtList]
+                                              PrintStmt(
+                                                Expr(
+                                                  NoMinusTermExpr(
+                                                  ) [NoMinusTermExpr]
+                                                  Term(
+                                                    Var(
+                                                      DesignatorDerived1(
+                                                        DesignatorName(
+                                                         bodovi
+                                                        ) [DesignatorName]
+                                                        NoDesignatorExpr(
+                                                        ) [NoDesignatorExpr]
+                                                      ) [DesignatorDerived1]
+                                                    ) [Var]
+                                                    NoMulTerm(
+                                                    ) [NoMulTerm]
+                                                  ) [Term]
+                                                  NoAddopTermExpression(
+                                                  ) [NoAddopTermExpression]
+                                                ) [Expr]
+                                              ) [PrintStmt]
+                                            ) [StmtList]
+                                            DesStmt(
+                                              AssignExpr(
+                                                DesignatorDerived1(
+                                                  DesignatorName(
+                                                   niz
+                                                  ) [DesignatorName]
+                                                  NoDesignatorExpr(
+                                                  ) [NoDesignatorExpr]
+                                                ) [DesignatorDerived1]
+                                                Assign(
+                                                ) [Assign]
+                                                Expr(
+                                                  NoMinusTermExpr(
+                                                  ) [NoMinusTermExpr]
+                                                  Term(
+                                                    NewTypeExpression(
+                                                      TypeName(
+                                                       int
+                                                      ) [TypeName]
+                                                      Expr(
+                                                        NoMinusTermExpr(
+                                                        ) [NoMinusTermExpr]
+                                                        Term(
+                                                          NumFactor(
+                                                           3
+                                                          ) [NumFactor]
+                                                          NoMulTerm(
+                                                          ) [NoMulTerm]
+                                                        ) [Term]
+                                                        NoAddopTermExpression(
+                                                        ) [NoAddopTermExpression]
+                                                      ) [Expr]
+                                                    ) [NewTypeExpression]
+                                                    NoMulTerm(
+                                                    ) [NoMulTerm]
+                                                  ) [Term]
+                                                  NoAddopTermExpression(
+                                                  ) [NoAddopTermExpression]
+                                                ) [Expr]
+                                              ) [AssignExpr]
+                                            ) [DesStmt]
+                                          ) [StmtList]
+                                          DesStmt(
+                                            AssignExpr(
+                                              DesignatorDerived1(
+                                                DesignatorName(
+                                                 niz
+                                                ) [DesignatorName]
+                                                DesignatorArray(
+                                                  Expr(
+                                                    NoMinusTermExpr(
+                                                    ) [NoMinusTermExpr]
+                                                    Term(
+                                                      Var(
+                                                        DesignatorDerived1(
+                                                          DesignatorName(
+                                                           nula
+                                                          ) [DesignatorName]
+                                                          NoDesignatorExpr(
+                                                          ) [NoDesignatorExpr]
+                                                        ) [DesignatorDerived1]
+                                                      ) [Var]
+                                                      NoMulTerm(
+                                                      ) [NoMulTerm]
+                                                    ) [Term]
+                                                    NoAddopTermExpression(
+                                                    ) [NoAddopTermExpression]
+                                                  ) [Expr]
+                                                ) [DesignatorArray]
+                                              ) [DesignatorDerived1]
+                                              Assign(
+                                              ) [Assign]
+                                              Expr(
+                                                NoMinusTermExpr(
+                                                ) [NoMinusTermExpr]
+                                                Term(
+                                                  Var(
+                                                    DesignatorDerived1(
+                                                      DesignatorName(
+                                                       jedan
+                                                      ) [DesignatorName]
+                                                      NoDesignatorExpr(
+                                                      ) [NoDesignatorExpr]
+                                                    ) [DesignatorDerived1]
+                                                  ) [Var]
+                                                  NoMulTerm(
+                                                  ) [NoMulTerm]
+                                                ) [Term]
+                                                NoAddopTermExpression(
+                                                ) [NoAddopTermExpression]
+                                              ) [Expr]
+                                            ) [AssignExpr]
+                                          ) [DesStmt]
+                                        ) [StmtList]
+                                        ErrorDesStmt(
+                                        ) [ErrorDesStmt]
+                                      ) [StmtList]
+                                      DesStmt(
+                                        AssignExpr(
+                                          DesignatorDerived1(
+                                            DesignatorName(
+                                             niz
+                                            ) [DesignatorName]
+                                            DesignatorArray(
+                                              Expr(
+                                                NoMinusTermExpr(
+                                                ) [NoMinusTermExpr]
+                                                Term(
+                                                  Var(
+                                                    DesignatorDerived1(
+                                                      DesignatorName(
+                                                       niz
+                                                      ) [DesignatorName]
+                                                      DesignatorArray(
+                                                        Expr(
+                                                          NoMinusTermExpr(
+                                                          ) [NoMinusTermExpr]
+                                                          Term(
+                                                            Var(
+                                                              DesignatorDerived1(
+                                                                DesignatorName(
+                                                                 jedan
+                                                                ) [DesignatorName]
+                                                                NoDesignatorExpr(
+                                                                ) [NoDesignatorExpr]
+                                                              ) [DesignatorDerived1]
+                                                            ) [Var]
+                                                            NoMulTerm(
+                                                            ) [NoMulTerm]
+                                                          ) [Term]
+                                                          NoAddopTermExpression(
+                                                          ) [NoAddopTermExpression]
+                                                        ) [Expr]
+                                                      ) [DesignatorArray]
+                                                    ) [DesignatorDerived1]
+                                                  ) [Var]
+                                                  NoMulTerm(
+                                                  ) [NoMulTerm]
+                                                ) [Term]
+                                                NoAddopTermExpression(
+                                                ) [NoAddopTermExpression]
+                                              ) [Expr]
+                                            ) [DesignatorArray]
+                                          ) [DesignatorDerived1]
+                                          Assign(
+                                          ) [Assign]
+                                          Expr(
+                                            NoMinusTermExpr(
+                                            ) [NoMinusTermExpr]
+                                            Term(
+                                              Var(
+                                                DesignatorDerived1(
+                                                  DesignatorName(
+                                                   niz
+                                                  ) [DesignatorName]
+                                                  DesignatorArray(
+                                                    Expr(
+                                                      NoMinusTermExpr(
+                                                      ) [NoMinusTermExpr]
+                                                      Term(
+                                                        Var(
+                                                          DesignatorDerived1(
+                                                            DesignatorName(
+                                                             niz
+                                                            ) [DesignatorName]
+                                                            DesignatorArray(
+                                                              Expr(
+                                                                NoMinusTermExpr(
+                                                                ) [NoMinusTermExpr]
+                                                                Term(
+                                                                  NumFactor(
+                                                                   0
+                                                                  ) [NumFactor]
+                                                                  NoMulTerm(
+                                                                  ) [NoMulTerm]
+                                                                ) [Term]
+                                                                NoAddopTermExpression(
+                                                                ) [NoAddopTermExpression]
+                                                              ) [Expr]
+                                                            ) [DesignatorArray]
+                                                          ) [DesignatorDerived1]
+                                                        ) [Var]
+                                                        NoMulTerm(
+                                                        ) [NoMulTerm]
+                                                      ) [Term]
+                                                      NoAddopTermExpression(
+                                                      ) [NoAddopTermExpression]
+                                                    ) [Expr]
+                                                  ) [DesignatorArray]
+                                                ) [DesignatorDerived1]
+                                              ) [Var]
+                                              MulTerm(
+                                                NoMulTerm(
+                                                ) [NoMulTerm]
+                                                Multiply(
+                                                ) [Multiply]
+                                                NumFactor(
+                                                 3
+                                                ) [NumFactor]
+                                              ) [MulTerm]
+                                            ) [Term]
+                                            NoAddopTermExpression(
+                                            ) [NoAddopTermExpression]
+                                          ) [Expr]
+                                        ) [AssignExpr]
+                                      ) [DesStmt]
+                                    ) [StmtList]
+                                    DesStmt(
+                                      AssignExpr(
+                                        DesignatorDerived1(
+                                          DesignatorName(
+                                           bodovi
+                                          ) [DesignatorName]
+                                          NoDesignatorExpr(
+                                          ) [NoDesignatorExpr]
+                                        ) [DesignatorDerived1]
+                                        Assign(
+                                        ) [Assign]
+                                        Expr(
+                                          NoMinusTermExpr(
+                                          ) [NoMinusTermExpr]
+                                          Term(
+                                            Var(
+                                              DesignatorDerived1(
+                                                DesignatorName(
+                                                 niz
+                                                ) [DesignatorName]
+                                                DesignatorArray(
+                                                  Expr(
+                                                    NoMinusTermExpr(
+                                                    ) [NoMinusTermExpr]
+                                                    Term(
+                                                      NumFactor(
+                                                       2
+                                                      ) [NumFactor]
+                                                      NoMulTerm(
+                                                      ) [NoMulTerm]
+                                                    ) [Term]
+                                                    NoAddopTermExpression(
+                                                    ) [NoAddopTermExpression]
+                                                  ) [Expr]
+                                                ) [DesignatorArray]
+                                              ) [DesignatorDerived1]
+                                            ) [Var]
+                                            MulTerm(
+                                              NoMulTerm(
+                                              ) [NoMulTerm]
+                                              Divide(
+                                              ) [Divide]
+                                              Var(
+                                                DesignatorDerived1(
+                                                  DesignatorName(
+                                                   niz
+                                                  ) [DesignatorName]
+                                                  DesignatorArray(
+                                                    Expr(
+                                                      NoMinusTermExpr(
+                                                      ) [NoMinusTermExpr]
+                                                      Term(
+                                                        NumFactor(
+                                                         0
+                                                        ) [NumFactor]
+                                                        NoMulTerm(
+                                                        ) [NoMulTerm]
+                                                      ) [Term]
+                                                      NoAddopTermExpression(
+                                                      ) [NoAddopTermExpression]
+                                                    ) [Expr]
+                                                  ) [DesignatorArray]
+                                                ) [DesignatorDerived1]
+                                              ) [Var]
+                                            ) [MulTerm]
+                                          ) [Term]
+                                          NoAddopTermExpression(
+                                          ) [NoAddopTermExpression]
+                                        ) [Expr]
+                                      ) [AssignExpr]
+                                    ) [DesStmt]
+                                  ) [StmtList]
+                                  PrintStmt(
+                                    Expr(
+                                      NoMinusTermExpr(
+                                      ) [NoMinusTermExpr]
+                                      Term(
+                                        Var(
+                                          DesignatorDerived1(
+                                            DesignatorName(
+                                             bodovi
+                                            ) [DesignatorName]
+                                            NoDesignatorExpr(
+                                            ) [NoDesignatorExpr]
+                                          ) [DesignatorDerived1]
+                                        ) [Var]
+                                        NoMulTerm(
+                                        ) [NoMulTerm]
+                                      ) [Term]
+                                      NoAddopTermExpression(
+                                      ) [NoAddopTermExpression]
+                                    ) [Expr]
+                                  ) [PrintStmt]
+                                ) [StmtList]
+                                PrintStmt(
+                                  Expr(
+                                    NoMinusTermExpr(
+                                    ) [NoMinusTermExpr]
+                                    Term(
+                                      Var(
+                                        DesignatorDerived1(
+                                          DesignatorName(
+                                           niz
+                                          ) [DesignatorName]
+                                          DesignatorArray(
+                                            Expr(
+                                              NoMinusTermExpr(
+                                              ) [NoMinusTermExpr]
+                                              Term(
+                                                NumFactor(
+                                                 2
+                                                ) [NumFactor]
+                                                NoMulTerm(
+                                                ) [NoMulTerm]
+                                              ) [Term]
+                                              NoAddopTermExpression(
+                                              ) [NoAddopTermExpression]
+                                            ) [Expr]
+                                          ) [DesignatorArray]
+                                        ) [DesignatorDerived1]
+                                      ) [Var]
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                    ) [Term]
+                                    NoAddopTermExpression(
+                                    ) [NoAddopTermExpression]
+                                  ) [Expr]
+                                ) [PrintStmt]
+                              ) [StmtList]
+                              DesStmt(
+                                AssignExpr(
+                                  DesignatorDerived1(
+                                    DesignatorName(
+                                     nizch
+                                    ) [DesignatorName]
+                                    NoDesignatorExpr(
+                                    ) [NoDesignatorExpr]
+                                  ) [DesignatorDerived1]
+                                  Assign(
+                                  ) [Assign]
+                                  Expr(
+                                    NoMinusTermExpr(
+                                    ) [NoMinusTermExpr]
+                                    Term(
+                                      NewTypeExpression(
+                                        TypeName(
+                                         char
+                                        ) [TypeName]
+                                        Expr(
+                                          NoMinusTermExpr(
+                                          ) [NoMinusTermExpr]
+                                          Term(
+                                            NumFactor(
+                                             3
+                                            ) [NumFactor]
+                                            NoMulTerm(
+                                            ) [NoMulTerm]
+                                          ) [Term]
+                                          NoAddopTermExpression(
+                                          ) [NoAddopTermExpression]
+                                        ) [Expr]
+                                      ) [NewTypeExpression]
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                    ) [Term]
+                                    NoAddopTermExpression(
+                                    ) [NoAddopTermExpression]
+                                  ) [Expr]
+                                ) [AssignExpr]
+                              ) [DesStmt]
+                            ) [StmtList]
+                            DesStmt(
+                              AssignExpr(
+                                DesignatorDerived1(
+                                  DesignatorName(
+                                   nizch
+                                  ) [DesignatorName]
+                                  DesignatorArray(
+                                    Expr(
+                                      NoMinusTermExpr(
+                                      ) [NoMinusTermExpr]
+                                      Term(
+                                        NumFactor(
+                                         0
+                                        ) [NumFactor]
+                                        NoMulTerm(
+                                        ) [NoMulTerm]
+                                      ) [Term]
+                                      NoAddopTermExpression(
+                                      ) [NoAddopTermExpression]
+                                    ) [Expr]
+                                  ) [DesignatorArray]
+                                ) [DesignatorDerived1]
+                                Assign(
+                                ) [Assign]
+                                Expr(
+                                  NoMinusTermExpr(
+                                  ) [NoMinusTermExpr]
+                                  Term(
+                                    CharFactor(
+                                     a
+                                    ) [CharFactor]
+                                    NoMulTerm(
+                                    ) [NoMulTerm]
+                                  ) [Term]
+                                  NoAddopTermExpression(
+                                  ) [NoAddopTermExpression]
+                                ) [Expr]
+                              ) [AssignExpr]
+                            ) [DesStmt]
+                          ) [StmtList]
+                          DesStmt(
+                            AssignExpr(
+                              DesignatorDerived1(
+                                DesignatorName(
+                                 nizch
+                                ) [DesignatorName]
+                                DesignatorArray(
+                                  Expr(
+                                    NoMinusTermExpr(
+                                    ) [NoMinusTermExpr]
+                                    Term(
+                                      Var(
+                                        DesignatorDerived1(
+                                          DesignatorName(
+                                           jedan
+                                          ) [DesignatorName]
+                                          NoDesignatorExpr(
+                                          ) [NoDesignatorExpr]
+                                        ) [DesignatorDerived1]
+                                      ) [Var]
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                    ) [Term]
+                                    NoAddopTermExpression(
+                                    ) [NoAddopTermExpression]
+                                  ) [Expr]
+                                ) [DesignatorArray]
+                              ) [DesignatorDerived1]
+                              Assign(
+                              ) [Assign]
+                              Expr(
+                                NoMinusTermExpr(
+                                ) [NoMinusTermExpr]
+                                Term(
+                                  CharFactor(
+                                   b
+                                  ) [CharFactor]
+                                  NoMulTerm(
+                                  ) [NoMulTerm]
+                                ) [Term]
+                                NoAddopTermExpression(
+                                ) [NoAddopTermExpression]
+                              ) [Expr]
+                            ) [AssignExpr]
+                          ) [DesStmt]
+                        ) [StmtList]
+                        DesStmt(
+                          AssignExpr(
+                            DesignatorDerived1(
+                              DesignatorName(
+                               nizch
+                              ) [DesignatorName]
+                              DesignatorArray(
+                                Expr(
+                                  NoMinusTermExpr(
+                                  ) [NoMinusTermExpr]
+                                  Term(
+                                    Var(
+                                      DesignatorDerived1(
+                                        DesignatorName(
+                                         pet
+                                        ) [DesignatorName]
+                                        NoDesignatorExpr(
+                                        ) [NoDesignatorExpr]
+                                      ) [DesignatorDerived1]
+                                    ) [Var]
+                                    NoMulTerm(
+                                    ) [NoMulTerm]
+                                  ) [Term]
+                                  AddopTermExpression(
+                                    NoAddopTermExpression(
+                                    ) [NoAddopTermExpression]
+                                    Minus(
+                                    ) [Minus]
+                                    Term(
+                                      NumFactor(
+                                       3
+                                      ) [NumFactor]
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                    ) [Term]
+                                  ) [AddopTermExpression]
+                                ) [Expr]
+                              ) [DesignatorArray]
+                            ) [DesignatorDerived1]
+                            Assign(
+                            ) [Assign]
+                            Expr(
+                              NoMinusTermExpr(
+                              ) [NoMinusTermExpr]
+                              Term(
+                                CharFactor(
+                                 c
+                                ) [CharFactor]
+                                NoMulTerm(
+                                ) [NoMulTerm]
+                              ) [Term]
+                              NoAddopTermExpression(
+                              ) [NoAddopTermExpression]
+                            ) [Expr]
+                          ) [AssignExpr]
+                        ) [DesStmt]
+                      ) [StmtList]
+                      PrintStmt(
+                        Expr(
+                          NoMinusTermExpr(
+                          ) [NoMinusTermExpr]
+                          Term(
+                            Var(
+                              DesignatorDerived1(
+                                DesignatorName(
+                                 nizch
+                                ) [DesignatorName]
+                                DesignatorArray(
+                                  Expr(
+                                    NoMinusTermExpr(
+                                    ) [NoMinusTermExpr]
+                                    Term(
+                                      NumFactor(
+                                       1
+                                      ) [NumFactor]
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                    ) [Term]
+                                    NoAddopTermExpression(
+                                    ) [NoAddopTermExpression]
+                                  ) [Expr]
+                                ) [DesignatorArray]
+                              ) [DesignatorDerived1]
+                            ) [Var]
+                            NoMulTerm(
+                            ) [NoMulTerm]
+                          ) [Term]
+                          NoAddopTermExpression(
+                          ) [NoAddopTermExpression]
+                        ) [Expr]
+                      ) [PrintStmt]
+                    ) [StmtList]
+                    PrintStmt(
+                      Expr(
+                        NoMinusTermExpr(
+                        ) [NoMinusTermExpr]
+                        Term(
+                          Var(
+                            DesignatorDerived1(
+                              DesignatorName(
+                               nizch
+                              ) [DesignatorName]
+                              DesignatorArray(
+                                Expr(
+                                  NoMinusTermExpr(
+                                  ) [NoMinusTermExpr]
+                                  Term(
+                                    Var(
+                                      DesignatorDerived1(
+                                        DesignatorName(
+                                         jedan
+                                        ) [DesignatorName]
+                                        NoDesignatorExpr(
+                                        ) [NoDesignatorExpr]
+                                      ) [DesignatorDerived1]
+                                    ) [Var]
+                                    MulTerm(
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                      Multiply(
+                                      ) [Multiply]
+                                      NumFactor(
+                                       2
+                                      ) [NumFactor]
+                                    ) [MulTerm]
+                                  ) [Term]
+                                  NoAddopTermExpression(
+                                  ) [NoAddopTermExpression]
+                                ) [Expr]
+                              ) [DesignatorArray]
+                            ) [DesignatorDerived1]
+                          ) [Var]
+                          NoMulTerm(
+                          ) [NoMulTerm]
+                        ) [Term]
+                        NoAddopTermExpression(
+                        ) [NoAddopTermExpression]
+                      ) [Expr]
+                    ) [PrintStmt]
+                  ) [StmtList]
+                  DesStmt(
+                    AssignExpr(
+                      DesignatorDerived1(
+                        DesignatorName(
+                         bodovi
+                        ) [DesignatorName]
+                        NoDesignatorExpr(
+                        ) [NoDesignatorExpr]
+                      ) [DesignatorDerived1]
+                      Assign(
+                      ) [Assign]
+                      Expr(
+                        NoMinusTermExpr(
+                        ) [NoMinusTermExpr]
+                        Term(
+                          Var(
+                            DesignatorDerived1(
+                              DesignatorName(
+                               bodovi
+                              ) [DesignatorName]
+                              NoDesignatorExpr(
+                              ) [NoDesignatorExpr]
+                            ) [DesignatorDerived1]
+                          ) [Var]
+                          NoMulTerm(
+                          ) [NoMulTerm]
+                        ) [Term]
+                        AddopTermExpression(
+                          AddopTermExpression(
+                            NoAddopTermExpression(
+                            ) [NoAddopTermExpression]
+                            Plus(
+                            ) [Plus]
+                            Term(
+                              Expression(
+                                Expr(
+                                  NoMinusTermExpr(
+                                  ) [NoMinusTermExpr]
+                                  Term(
+                                    Var(
+                                      DesignatorDerived1(
+                                        DesignatorName(
+                                         pet
+                                        ) [DesignatorName]
+                                        NoDesignatorExpr(
+                                        ) [NoDesignatorExpr]
+                                      ) [DesignatorDerived1]
+                                    ) [Var]
+                                    MulTerm(
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                      Multiply(
+                                      ) [Multiply]
+                                      Var(
+                                        DesignatorDerived1(
+                                          DesignatorName(
+                                           jedan
+                                          ) [DesignatorName]
+                                          NoDesignatorExpr(
+                                          ) [NoDesignatorExpr]
+                                        ) [DesignatorDerived1]
+                                      ) [Var]
+                                    ) [MulTerm]
+                                  ) [Term]
+                                  AddopTermExpression(
+                                    NoAddopTermExpression(
+                                    ) [NoAddopTermExpression]
+                                    Minus(
+                                    ) [Minus]
+                                    Term(
+                                      NumFactor(
+                                       1
+                                      ) [NumFactor]
+                                      NoMulTerm(
+                                      ) [NoMulTerm]
+                                    ) [Term]
+                                  ) [AddopTermExpression]
+                                ) [Expr]
+                              ) [Expression]
+                              MulTerm(
+                                NoMulTerm(
+                                ) [NoMulTerm]
+                                Multiply(
+                                ) [Multiply]
+                                Var(
+                                  DesignatorDerived1(
+                                    DesignatorName(
+                                     bodovi
+                                    ) [DesignatorName]
+                                    NoDesignatorExpr(
+                                    ) [NoDesignatorExpr]
+                                  ) [DesignatorDerived1]
+                                ) [Var]
+                              ) [MulTerm]
+                            ) [Term]
+                          ) [AddopTermExpression]
+                          Minus(
+                          ) [Minus]
+                          Term(
+                            Expression(
+                              Expr(
+                                NoMinusTermExpr(
+                                ) [NoMinusTermExpr]
+                                Term(
+                                  NumFactor(
+                                   3
+                                  ) [NumFactor]
+                                  MulTerm(
+                                    NoMulTerm(
+                                    ) [NoMulTerm]
+                                    Modulus(
+                                    ) [Modulus]
+                                    NumFactor(
+                                     2
+                                    ) [NumFactor]
+                                  ) [MulTerm]
+                                ) [Term]
+                                AddopTermExpression(
+                                  AddopTermExpression(
+                                    NoAddopTermExpression(
+                                    ) [NoAddopTermExpression]
+                                    Plus(
+                                    ) [Plus]
+                                    Term(
+                                      NumFactor(
+                                       3
+                                      ) [NumFactor]
+                                      MulTerm(
+                                        NoMulTerm(
+                                        ) [NoMulTerm]
+                                        Multiply(
+                                        ) [Multiply]
+                                        NumFactor(
+                                         2
+                                        ) [NumFactor]
+                                      ) [MulTerm]
+                                    ) [Term]
+                                  ) [AddopTermExpression]
+                                  Minus(
+                                  ) [Minus]
+                                  Term(
+                                    NumFactor(
+                                     3
+                                    ) [NumFactor]
+                                    NoMulTerm(
+                                    ) [NoMulTerm]
+                                  ) [Term]
+                                ) [AddopTermExpression]
+                              ) [Expr]
+                            ) [Expression]
+                            NoMulTerm(
+                            ) [NoMulTerm]
+                          ) [Term]
+                        ) [AddopTermExpression]
+                      ) [Expr]
+                    ) [AssignExpr]
+                  ) [DesStmt]
+                ) [StmtList]
+                PrintStmt(
+                  Expr(
+                    NoMinusTermExpr(
+                    ) [NoMinusTermExpr]
+                    Term(
+                      Var(
+                        DesignatorDerived1(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                          NoDesignatorExpr(
+                          ) [NoDesignatorExpr]
+                        ) [DesignatorDerived1]
+                      ) [Var]
+                      NoMulTerm(
+                      ) [NoMulTerm]
+                    ) [Term]
+                    NoAddopTermExpression(
+                    ) [NoAddopTermExpression]
+                  ) [Expr]
+                ) [PrintStmt]
+              ) [StmtList]
+              ReadDesignatr(
+                DesignatorDerived1(
+                  DesignatorName(
+                   bodovi
+                  ) [DesignatorName]
+                  NoDesignatorExpr(
+                  ) [NoDesignatorExpr]
+                ) [DesignatorDerived1]
+              ) [ReadDesignatr]
+            ) [StmtList]
+            PrintStmt(
+              Expr(
+                NoMinusTermExpr(
+                ) [NoMinusTermExpr]
+                Term(
+                  Var(
+                    DesignatorDerived1(
+                      DesignatorName(
+                       bodovi
+                      ) [DesignatorName]
+                      NoDesignatorExpr(
+                      ) [NoDesignatorExpr]
+                    ) [DesignatorDerived1]
+                  ) [Var]
+                  NoMulTerm(
+                  ) [NoMulTerm]
+                ) [Term]
+                NoAddopTermExpression(
+                ) [NoAddopTermExpression]
+              ) [Expr]
+            ) [PrintStmt]
+          ) [StmtList]
+          DesStmt(
+            AssignExpr(
+              DesignatorDerived1(
+                DesignatorName(
+                 niz2
+                ) [DesignatorName]
+                NoDesignatorExpr(
+                ) [NoDesignatorExpr]
+              ) [DesignatorDerived1]
+              Assign(
+              ) [Assign]
+              Expr(
+                NoMinusTermExpr(
+                ) [NoMinusTermExpr]
+                Term(
+                  Range(
+                    Expr(
+                      NoMinusTermExpr(
+                      ) [NoMinusTermExpr]
+                      Term(
+                        Var(
+                          DesignatorDerived1(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                            NoDesignatorExpr(
+                            ) [NoDesignatorExpr]
+                          ) [DesignatorDerived1]
+                        ) [Var]
+                        NoMulTerm(
+                        ) [NoMulTerm]
+                      ) [Term]
+                      AddopTermExpression(
+                        NoAddopTermExpression(
+                        ) [NoAddopTermExpression]
+                        Plus(
+                        ) [Plus]
+                        Term(
+                          NumFactor(
+                           1
+                          ) [NumFactor]
+                          NoMulTerm(
+                          ) [NoMulTerm]
+                        ) [Term]
+                      ) [AddopTermExpression]
+                    ) [Expr]
+                  ) [Range]
+                  NoMulTerm(
+                  ) [NoMulTerm]
+                ) [Term]
+                NoAddopTermExpression(
+                ) [NoAddopTermExpression]
+              ) [Expr]
+            ) [AssignExpr]
+          ) [DesStmt]
+        ) [StmtList]
+        PrintStmt(
+          Expr(
+            NoMinusTermExpr(
+            ) [NoMinusTermExpr]
+            Term(
+              Var(
+                DesignatorDerived1(
+                  DesignatorName(
+                   niz2
+                  ) [DesignatorName]
+                  NoDesignatorExpr(
+                  ) [NoDesignatorExpr]
+                ) [DesignatorDerived1]
+              ) [Var]
+              NoMulTerm(
+              ) [NoMulTerm]
+            ) [Term]
+            NoAddopTermExpression(
+            ) [NoAddopTermExpression]
+          ) [Expr]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDecls]
+) [Program]
+INFO  16:17:02,434 - ===================================
+INFO  16:17:02,436 -  Print count calls = 0
+INFO  16:17:02,437 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,16 @@
+// Test301
+
+program test301
+
+
+int niz2[];
+{
+	void main()	
+	{
+		niz2 = range(8);
+		print(niz2);
+	
+	}
+}
+
+

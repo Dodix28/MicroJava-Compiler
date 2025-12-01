@@ -1,0 +1,15 @@
+// Test301
+
+program test301
+	
+{
+	void main()	
+		int bodovi;
+	
+	{
+		read(bodovi);
+		print(bodovi);
+	}
+}
+
+

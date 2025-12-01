@@ -1,0 +1,7 @@
+INFO  17:07:59,610 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  17:07:59,619 - #2 program
+INFO  17:07:59,620 - #8 MyProgram
+INFO  17:07:59,620 - #8 int
+ERROR 17:07:59,620 - 
+Sintaksna greska na liniji 3
+ERROR 17:07:59,620 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

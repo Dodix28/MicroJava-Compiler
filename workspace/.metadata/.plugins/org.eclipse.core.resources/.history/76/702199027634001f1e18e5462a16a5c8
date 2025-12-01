@@ -1,0 +1,23 @@
+// Test301
+
+program test301
+//pogresan nepostojeci tip
+//	intt a;
+
+//pogresna dodela za konstante
+const int x = true;
+
+int a;
+int niz[];
+{
+	void main()	
+	//vec definisana promenljiva
+	//char a;
+	
+	char b;
+	{
+	
+	}
+}
+
+

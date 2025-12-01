@@ -1,0 +1,79 @@
+INFO  23:50:43,734 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  23:50:43,761 - #2 program
+INFO  23:50:43,761 - #28 test301
+INFO  23:50:43,761 - #28 int
+INFO  23:50:43,763 - #28 bodovi
+INFO  23:50:43,763 - #12 ;
+INFO  23:50:43,764 - #15 {
+INFO  23:50:43,765 - #25 void
+INFO  23:50:43,765 - #28 main
+INFO  23:50:43,765 - #13 (
+INFO  23:50:43,765 - #14 )
+INFO  23:50:43,765 - #15 {
+INFO  23:50:43,765 - #7 read
+INFO  23:50:43,767 - #13 (
+INFO  23:50:43,767 - #28 bodovi
+INFO  23:50:43,767 - #14 )
+INFO  23:50:43,768 - #12 ;
+INFO  23:50:43,768 - #3 print
+INFO  23:50:43,768 - #13 (
+INFO  23:50:43,768 - #28 bodovi
+INFO  23:50:43,768 - #14 )
+INFO  23:50:43,769 - #12 ;
+INFO  23:50:43,769 - #16 }
+INFO  23:50:43,777 - #16 }
+INFO  23:50:43,782 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclName(
+       bodovi
+      ) [VarDeclName]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        ReadDesignatr(
+          DesignatorName(
+           bodovi
+          ) [DesignatorName]
+        ) [ReadDesignatr]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  23:50:43,782 - ===================================
+INFO  23:50:43,783 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 8
+INFO  23:50:43,783 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 9
+INFO  23:50:43,785 -  Print count calls = 1
+INFO  23:50:43,785 -  Deklarisanih promenljivih ima = 1
+INFO  23:50:43,785 - ===================================
+INFO  23:50:43,788 - Parsiranje uspesno zavrseno!

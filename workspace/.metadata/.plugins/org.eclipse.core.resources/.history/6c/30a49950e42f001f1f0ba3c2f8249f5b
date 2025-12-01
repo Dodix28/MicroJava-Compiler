@@ -1,0 +1,223 @@
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+
+terminal PROG, PRINT, RETURN, NEW, CONST, READ, PLUS, ASSIGN, COMMA, RANGE;
+terminal SEMI, LPAREN, RPAREN, LBRACE, RBRACE, LBRACKET, RBRACKET, MINUS;
+terminal MULTIPLY, DIVIDE, MODULUS, INC, DEC, VOID;
+terminal Integer NUMBER;
+terminal Integer BOOL;
+terminal String IDENT;
+terminal Character CHAR;
+
+
+nonterminal VarDecl, VarDecls, DeclList, ConstDecl, Constanta, ConstDeclList;
+nonterminal Mulop, Addop, Assignop;
+nonterminal Designator, DesArrName, Factor, MoreFactors, Term, Expr, OptionalMinus, MoreTerms, DesignatorStatement;
+nonterminal Statement, FormPars, VarDeclIdent, FormParsIdent, FormParsList, MethodDecl, VarDeclList, StatementList;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, MethodIdent;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+
+
+
+Program ::= (Program) PROG ProgramName:p DeclList LBRACE MethodDecl RBRACE;
+
+ProgramName ::= (ProgramName) IDENT:progName;
+
+
+			
+ConstDecl ::= (ConstDeclarations) CONST Type Constanta ConstDeclList SEMI;
+			
+ConstDeclList ::= (ConstDecls) ConstDeclList COMMA Constanta
+				|
+				(ErrorConstDecl) error SEMI:l
+					{: parser.report_error("Izvrsen oporavak od greske u definiciji globalne promenljive do ; u liniji "+ lleft ,null); :}
+				|
+				(NoConstDecls) /*epsilon*/
+				;
+
+Constanta ::= (NumConst) IDENT:constName ASSIGN NUMBER
+			|
+			(BoolConst) IDENT:constName ASSIGN BOOL
+			|
+			(CharConst) IDENT:constName ASSIGN CHAR
+			;
+
+
+VarDecl ::= (VarDeclaration) Type:varType VarDeclIdent VarDecls SEMI;
+
+			
+VarDecls ::= (VarDeclrs) VarDecls COMMA VarDeclIdent
+			|
+			(ErrorVarDecl) error SEMI:l
+				{: parser.report_error("Izvrsen oporavak od greske u definiciji globalne promenljive do ; u liniji "+ lleft ,null); :}
+			|
+			(NoVarDeclrs) /*epsilon*/
+			;
+			
+VarDeclIdent ::= (VarDeclName) IDENT:varName
+			|
+			(VarDeclArray) IDENT:varName LBRACKET RBRACKET
+			;
+
+Type ::= (TypeName) IDENT:typeName;
+
+DeclList ::= (DeclVar) DeclList VarDecl
+			|
+			(DeclConst) DeclList ConstDecl
+			|
+			(ErrorDeclarations) error SEMI:l
+				{: parser.report_error("Izvrsen oporavak od greske u definiciji globalne promenljive do ; u liniji "+ lleft ,null); :}
+			|
+			(NoDecl) /*epsilon*/
+			;
+			
+Designator ::= (DesignatorName) IDENT:desName
+			|
+			(DesignatorArray) DesArrName LBRACKET Expr RBRACKET
+			;
+			
+DesArrName ::= IDENT:desName;
+			
+	
+
+DesignatorStatement ::= (AssignExpr) Designator Assignop Expr
+					|
+					(Inc) Designator INC
+					|
+					(Dec) Designator DEC
+					;
+					
+Statement ::= (DesStmt) DesignatorStatement SEMI
+			|
+			(ReadDesignatr)READ LPAREN Designator RPAREN SEMI
+			|
+			(PrintStmt) PRINT LPAREN Expr RPAREN SEMI
+			|
+			(PrintStmts) PRINT LPAREN Expr COMMA NUMBER RPAREN SEMI
+			|
+			(ErrorDesStmt) error SEMI:l
+						{: parser.report_error("Izvrsen oporavak od greske u konstrukciji iskaza dodele do ; u liniji "+ lleft ,null); :}
+			;
+			
+FormPars ::= (FormPars) Type FormParsIdent FormParsList;
+
+FormParsIdent ::= (FormParsVar)IDENT
+				| 
+				(FormParsArray)IDENT LBRACKET RBRACKET
+				;
+				
+FormParsList ::= (FormParams) FormParsList COMMA FormParsIdent
+				|
+				(NoFormParams)/*epsilon*/
+				;
+				
+MethodDecl ::= (MethodDecl) VOID MethodIdent LPAREN RPAREN VarDeclList LBRACE StatementList RBRACE;
+			
+MethodIdent ::= (MethodName) IDENT:methodName;
+
+		
+VarDeclList ::= (VarDeclarationList) VarDeclList VarDecl
+			|
+			(NoVarDeclarationList)/*epsilon*/
+			;
+			
+StatementList ::= (StmtList) StatementList Statement
+				|
+				(NoStmtList) /*epsilon*/
+				;
+
+
+Factor ::= (NumFactor) NUMBER
+		|
+		(CharFactor) CHAR
+		|
+		(Expression) LPAREN Expr RPAREN
+		|
+		(BoolFactor) BOOL
+		|
+		(Var) Designator
+		|
+		(NewTypeExpression) NEW Type LBRACKET Expr RBRACKET
+		|
+		(Range)RANGE LPAREN Expr RPAREN
+		;			
+		
+Term ::= (Term) Factor MoreFactors;
+
+MoreFactors ::= (MulTerm) MoreFactors Mulop Factor
+			|
+			(NoMulTerm)/*epsilon*/
+			;
+
+Expr ::= (Expr) OptionalMinus Term MoreTerms;
+
+OptionalMinus ::= (MinusTermExpr) MINUS
+				|
+				(NoMinusTermExpr) /*epsilon*/
+				;
+				
+MoreTerms ::=(AddopTermExpression) MoreTerms Addop Term
+			|
+			(NoAddopTermExpression)/*epsilon*/
+			;
+		
+			
+Assignop ::= (Assign) ASSIGN;
+			
+Addop ::= (Plus) PLUS
+		|
+		(Minus) MINUS
+		;
+
+Mulop ::= (Multiply) MULTIPLY
+		|
+		(Divide) DIVIDE
+		|
+		(Modulus) MODULUS
+		;
+

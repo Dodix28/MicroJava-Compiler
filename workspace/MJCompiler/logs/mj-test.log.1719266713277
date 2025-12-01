@@ -1,0 +1,90 @@
+INFO  00:04:26,367 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  00:04:26,396 - #2 program
+INFO  00:04:26,396 - #28 test301
+INFO  00:04:26,396 - #28 int
+INFO  00:04:26,398 - #28 bodovi
+INFO  00:04:26,398 - #12 ;
+INFO  00:04:26,399 - #15 {
+INFO  00:04:26,400 - #25 void
+INFO  00:04:26,400 - #28 main
+INFO  00:04:26,400 - #13 (
+INFO  00:04:26,400 - #14 )
+INFO  00:04:26,400 - #15 {
+INFO  00:04:26,401 - #28 bodovi
+INFO  00:04:26,403 - #9 =
+INFO  00:04:26,403 - #26 9
+INFO  00:04:26,404 - #12 ;
+INFO  00:04:26,404 - #3 print
+INFO  00:04:26,404 - #13 (
+INFO  00:04:26,404 - #28 bodovi
+INFO  00:04:26,404 - #14 )
+INFO  00:04:26,405 - #12 ;
+INFO  00:04:26,405 - #16 }
+INFO  00:04:26,405 - #16 }
+INFO  00:04:26,411 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclName(
+       bodovi
+      ) [VarDeclName]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    StmtList(
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        DesStmt(
+          AssignExpr(
+            DesignatorName(
+             bodovi
+            ) [DesignatorName]
+            Assign(
+            ) [Assign]
+            NoMinusExpr(
+              TermFactor(
+                NumFactor(
+                 9
+                ) [NumFactor]
+              ) [TermFactor]
+            ) [NoMinusExpr]
+          ) [AssignExpr]
+        ) [DesStmt]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  00:04:26,411 - ===================================
+INFO  00:04:26,413 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 8
+INFO  00:04:26,414 - Pronadjena promenljiva bodovi: int,0, 0 na liniji 9
+INFO  00:04:26,414 -  Print count calls = 1
+INFO  00:04:26,414 -  Deklarisanih promenljivih ima = 1
+INFO  00:04:26,414 - ===================================
+INFO  00:04:26,417 - Prepoznata numericka konstanta
+INFO  00:04:26,418 - Parsiranje uspesno zavrseno!

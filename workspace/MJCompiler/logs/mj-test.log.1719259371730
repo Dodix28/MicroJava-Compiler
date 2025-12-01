@@ -1,0 +1,148 @@
+INFO  22:02:14,530 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  22:02:14,594 - #2 program
+INFO  22:02:14,594 - #28 test301
+INFO  22:02:14,594 - #28 int
+INFO  22:02:14,596 - #28 niz
+INFO  22:02:14,596 - #17 [
+INFO  22:02:14,597 - #18 ]
+INFO  22:02:14,597 - #12 ;
+INFO  22:02:14,598 - #15 {
+INFO  22:02:14,598 - #25 void
+INFO  22:02:14,599 - #28 main
+INFO  22:02:14,599 - #13 (
+INFO  22:02:14,599 - #14 )
+INFO  22:02:14,599 - #28 int
+INFO  22:02:14,600 - #28 bodovi
+INFO  22:02:14,601 - #12 ;
+INFO  22:02:14,601 - #15 {
+INFO  22:02:14,601 - #28 bodovi
+INFO  22:02:14,603 - #9 =
+INFO  22:02:14,603 - #26 3
+INFO  22:02:14,606 - #12 ;
+INFO  22:02:14,607 - #28 niz2
+INFO  22:02:14,607 - #9 =
+INFO  22:02:14,608 - #11 range
+INFO  22:02:14,608 - #13 (
+INFO  22:02:14,608 - #28 bodovi
+INFO  22:02:14,609 - #8 +
+INFO  22:02:14,609 - #26 1
+INFO  22:02:14,612 - #14 )
+INFO  22:02:14,612 - #12 ;
+INFO  22:02:14,612 - #3 print
+INFO  22:02:14,612 - #13 (
+INFO  22:02:14,613 - #28 niz2
+INFO  22:02:14,613 - #14 )
+INFO  22:02:14,613 - #12 ;
+INFO  22:02:14,613 - #16 }
+INFO  22:02:14,614 - #16 }
+INFO  22:02:14,623 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclArray(
+       niz
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    VarDeclarationList(
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclName(
+         bodovi
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [VarDeclarationList]
+    StmtList(
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          DesStmt(
+            AssignExpr(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+              Assign(
+              ) [Assign]
+              NoMinusExpr(
+                TermFactor(
+                  NumFactor(
+                   3
+                  ) [NumFactor]
+                ) [TermFactor]
+              ) [NoMinusExpr]
+            ) [AssignExpr]
+          ) [DesStmt]
+        ) [StmtList]
+        DesStmt(
+          AssignExpr(
+            DesignatorName(
+             niz2
+            ) [DesignatorName]
+            Assign(
+            ) [Assign]
+            NoMinusExpr(
+              TermFactor(
+                Range(
+                  AddopExpression(
+                    NoMinusExpr(
+                      TermFactor(
+                        Var(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [Var]
+                      ) [TermFactor]
+                    ) [NoMinusExpr]
+                    Plus(
+                    ) [Plus]
+                    TermFactor(
+                      NumFactor(
+                       1
+                      ) [NumFactor]
+                    ) [TermFactor]
+                  ) [AddopExpression]
+                ) [Range]
+              ) [TermFactor]
+            ) [NoMinusExpr]
+          ) [AssignExpr]
+        ) [DesStmt]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               niz2
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  22:02:14,623 - ===================================
+INFO  22:02:14,627 - Definisana globalna promenljiva []  niz na liniji 6
+INFO  22:02:14,628 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 12
+ERROR 22:02:14,628 - Ime niz2nije deklarisano! na liniji 13
+INFO  22:02:14,628 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 13

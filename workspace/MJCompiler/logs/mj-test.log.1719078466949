@@ -1,0 +1,165 @@
+INFO  19:45:33,569 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  19:45:33,593 - #2 program
+INFO  19:45:33,593 - #28 test301
+INFO  19:45:33,593 - #28 int
+INFO  19:45:33,596 - #28 a
+INFO  19:45:33,596 - #12 ;
+INFO  19:45:33,597 - #28 bool
+INFO  19:45:33,597 - #28 b
+INFO  19:45:33,597 - #12 ;
+INFO  19:45:33,597 - #28 char
+INFO  19:45:33,597 - #28 c
+INFO  19:45:33,597 - #12 ;
+INFO  19:45:33,598 - #28 int
+INFO  19:45:33,598 - #28 niz1
+INFO  19:45:33,598 - #17 [
+INFO  19:45:33,598 - #18 ]
+INFO  19:45:33,598 - #12 ;
+INFO  19:45:33,598 - #28 bool
+INFO  19:45:33,598 - #28 niz2
+INFO  19:45:33,598 - #17 [
+INFO  19:45:33,598 - #18 ]
+INFO  19:45:33,598 - #12 ;
+INFO  19:45:33,598 - #28 char
+INFO  19:45:33,599 - #28 niz3
+INFO  19:45:33,599 - #12 ;
+INFO  19:45:33,599 - #28 int
+INFO  19:45:33,599 - #28 a
+INFO  19:45:33,599 - #10 ,
+INFO  19:45:33,599 - #28 p2
+INFO  19:45:33,599 - #10 ,
+INFO  19:45:33,600 - #28 p3
+INFO  19:45:33,600 - #12 ;
+INFO  19:45:33,600 - #15 {
+INFO  19:45:33,600 - #25 void
+INFO  19:45:33,600 - #28 main
+INFO  19:45:33,600 - #13 (
+INFO  19:45:33,600 - #14 )
+INFO  19:45:33,600 - #15 {
+INFO  19:45:33,600 - #16 }
+INFO  19:45:33,601 - #16 }
+INFO  19:45:33,608 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      DeclVar(
+        DeclVar(
+          DeclVar(
+            DeclVar(
+              DeclVar(
+                NoDecl(
+                ) [NoDecl]
+                VarDeclaration(
+                  TypeName(
+                   int
+                  ) [TypeName]
+                  VarDeclName(
+                   a
+                  ) [VarDeclName]
+                  NoVarDeclrs(
+                  ) [NoVarDeclrs]
+                ) [VarDeclaration]
+              ) [DeclVar]
+              VarDeclaration(
+                TypeName(
+                 bool
+                ) [TypeName]
+                VarDeclName(
+                 b
+                ) [VarDeclName]
+                NoVarDeclrs(
+                ) [NoVarDeclrs]
+              ) [VarDeclaration]
+            ) [DeclVar]
+            VarDeclaration(
+              TypeName(
+               char
+              ) [TypeName]
+              VarDeclName(
+               c
+              ) [VarDeclName]
+              NoVarDeclrs(
+              ) [NoVarDeclrs]
+            ) [VarDeclaration]
+          ) [DeclVar]
+          VarDeclaration(
+            TypeName(
+             int
+            ) [TypeName]
+            VarDeclArray(
+             niz1
+            ) [VarDeclArray]
+            NoVarDeclrs(
+            ) [NoVarDeclrs]
+          ) [VarDeclaration]
+        ) [DeclVar]
+        VarDeclaration(
+          TypeName(
+           bool
+          ) [TypeName]
+          VarDeclArray(
+           niz2
+          ) [VarDeclArray]
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+        ) [VarDeclaration]
+      ) [DeclVar]
+      VarDeclaration(
+        TypeName(
+         char
+        ) [TypeName]
+        VarDeclName(
+         niz3
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclName(
+       a
+      ) [VarDeclName]
+      VarDeclrs(
+        VarDeclrs(
+          NoVarDeclrs(
+          ) [NoVarDeclrs]
+          VarDeclName(
+           p2
+          ) [VarDeclName]
+        ) [VarDeclrs]
+        VarDeclName(
+         p3
+        ) [VarDeclName]
+      ) [VarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    NoVarDeclarationList(
+    ) [NoVarDeclarationList]
+    NoStmtList(
+    ) [NoStmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  19:45:33,609 - ===================================
+INFO  19:45:33,614 - Definisana globalna promenljiva  a na liniji 2
+INFO  19:45:33,614 - Definisana globalna promenljiva  b na liniji 3
+INFO  19:45:33,614 - Definisana globalna promenljiva  c na liniji 4
+INFO  19:45:33,614 - Definisana globalna promenljiva []  niz1 na liniji 6
+INFO  19:45:33,615 - Definisana globalna promenljiva []  niz2 na liniji 7
+INFO  19:45:33,615 - Definisana globalna promenljiva  niz3 na liniji 8
+INFO  19:45:33,615 - Definisana globalna promenljiva  a na liniji 10
+ERROR 19:45:33,615 - Promenljiva a je vec definisana! GRESKA na liniji 10
+INFO  19:45:33,615 - Definisana globalna promenljiva  p2 na liniji 10
+INFO  19:45:33,615 - Definisana globalna promenljiva  p3 na liniji 10
+INFO  19:45:33,615 -  Print count calls = 0
+INFO  19:45:33,615 -  Deklarisanih promenljivih ima = 9
+INFO  19:45:33,615 - ===================================
+ERROR 19:45:33,616 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,22 @@
+// Test301
+
+program test301
+
+int niz[];
+{
+	void main()	
+	{
+		niz = new int[7];
+		niz[0] = 1;
+		niz[1] = 2;
+		niz[2] = 3;
+		niz[3] = 3;
+		niz[4] = 3;
+	
+		
+		print(niz);
+	
+	}
+}
+
+

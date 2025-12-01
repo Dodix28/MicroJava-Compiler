@@ -1,0 +1,32 @@
+// Test301
+
+program test301
+
+const int nula = 0;
+const int jedan = 1;
+const int pet = 5;
+
+int niz[], niz2[];
+
+{
+	void main()	
+		int bodovi;
+		bool bt;
+	{
+		bodovi = 5;
+		bodovi--;
+		bodovi = -bodovi + pet;
+		bodovi = bodovi * pet;
+		bodovi--;
+		
+		niz = new int[3];
+		niz[nula] = jedan;
+		bodovi = niz[nula];
+
+		print(bodovi);
+
+	
+	}
+}
+
+

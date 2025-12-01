@@ -1,0 +1,80 @@
+INFO  13:04:43,548 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  13:04:43,573 - #2 program
+INFO  13:04:43,573 - #28 test301
+INFO  13:04:43,573 - #28 int
+INFO  13:04:43,574 - #28 a
+INFO  13:04:43,575 - #12 ;
+INFO  13:04:43,576 - #28 int
+INFO  13:04:43,576 - #28 niz
+INFO  13:04:43,577 - #17 [
+INFO  13:04:43,577 - #18 ]
+INFO  13:04:43,577 - #12 ;
+INFO  13:04:43,577 - #15 {
+INFO  13:04:43,577 - #25 void
+INFO  13:04:43,578 - #28 main
+INFO  13:04:43,578 - #13 (
+INFO  13:04:43,578 - #14 )
+INFO  13:04:43,578 - #28 int
+INFO  13:04:43,579 - #28 a
+INFO  13:04:43,579 - #12 ;
+INFO  13:04:43,580 - #15 {
+INFO  13:04:43,580 - #16 }
+INFO  13:04:43,580 - #16 }
+INFO  13:04:43,587 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclName(
+         a
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      TypeName(
+       int
+      ) [TypeName]
+      VarDeclArray(
+       niz
+      ) [VarDeclArray]
+      NoVarDeclrs(
+      ) [NoVarDeclrs]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    VarDeclarationList(
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclName(
+         a
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [VarDeclarationList]
+    NoStmtList(
+    ) [NoStmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  13:04:43,587 - ===================================
+INFO  13:04:43,590 - Definisana globalna promenljiva []  niz na liniji 8
+INFO  13:04:43,590 -  Print count calls = 0
+INFO  13:04:43,590 -  Deklarisanih promenljivih ima = 3
+INFO  13:04:43,590 - ===================================
+INFO  13:04:43,596 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,25 @@
+INFO  21:33:37,588 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  21:33:37,594 - #1 program
+INFO  21:33:37,594 - #7 MJProgram
+INFO  21:33:37,594 - #7 int
+INFO  21:33:37,595 - #7 x
+INFO  21:33:37,595 - #13 ,
+INFO  21:33:37,595 - #7 y
+INFO  21:33:37,595 - #14 ;
+INFO  21:33:37,595 - #17 {
+INFO  21:33:37,595 - #28 void
+INFO  21:33:37,595 - #7 main
+INFO  21:33:37,595 - #15 (
+INFO  21:33:37,596 - #16 )
+INFO  21:33:37,596 - #17 {
+INFO  21:33:37,596 - #7 niz
+INFO  21:33:37,596 - #8 25
+INFO  21:33:37,596 - #12 =
+INFO  21:33:37,596 - #14 ;
+INFO  21:33:37,596 - #8 23
+INFO  21:33:37,597 - #8 45
+INFO  21:33:37,597 - #12 =
+INFO  21:33:37,597 - #7 x
+INFO  21:33:37,597 - #14 ;
+INFO  21:33:37,598 - #18 }
+INFO  21:33:37,598 - #18 }

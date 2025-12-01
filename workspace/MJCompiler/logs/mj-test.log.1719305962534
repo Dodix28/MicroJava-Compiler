@@ -1,0 +1,79 @@
+INFO  10:58:35,151 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  10:58:35,194 - #2 program
+INFO  10:58:35,194 - #28 test301
+INFO  10:58:35,194 - #15 {
+INFO  10:58:35,197 - #25 void
+INFO  10:58:35,197 - #28 main
+INFO  10:58:35,197 - #13 (
+INFO  10:58:35,198 - #14 )
+INFO  10:58:35,198 - #28 int
+INFO  10:58:35,199 - #28 bodovi
+INFO  10:58:35,199 - #12 ;
+INFO  10:58:35,200 - #15 {
+INFO  10:58:35,201 - #7 read
+INFO  10:58:35,202 - #13 (
+INFO  10:58:35,202 - #28 bodovi
+INFO  10:58:35,202 - #14 )
+INFO  10:58:35,203 - #12 ;
+INFO  10:58:35,203 - #3 print
+INFO  10:58:35,203 - #13 (
+INFO  10:58:35,203 - #28 bodovi
+INFO  10:58:35,203 - #14 )
+INFO  10:58:35,204 - #12 ;
+INFO  10:58:35,204 - #16 }
+INFO  10:58:35,204 - #16 }
+INFO  10:58:35,216 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDecl(
+  ) [NoDecl]
+  MethodDecl(
+    MethodVoidName(
+     main
+    ) [MethodVoidName]
+    VarDeclarationList(
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      VarDeclaration(
+        TypeName(
+         int
+        ) [TypeName]
+        VarDeclName(
+         bodovi
+        ) [VarDeclName]
+        NoVarDeclrs(
+        ) [NoVarDeclrs]
+      ) [VarDeclaration]
+    ) [VarDeclarationList]
+    StmtList(
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        ReadDesignatr(
+          DesignatorName(
+           bodovi
+          ) [DesignatorName]
+        ) [ReadDesignatr]
+      ) [StmtList]
+      PrintStmt(
+        NoMinusExpr(
+          TermFactor(
+            Var(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+            ) [Var]
+          ) [TermFactor]
+        ) [NoMinusExpr]
+      ) [PrintStmt]
+    ) [StmtList]
+  ) [MethodDecl]
+) [Program]
+INFO  10:58:35,216 - ===================================
+INFO  10:58:35,219 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 10
+INFO  10:58:35,219 - Pronadjena promenljiva bodovi: int,0, 1 na liniji 11
+INFO  10:58:35,219 -  Print count calls = 1
+INFO  10:58:35,219 -  Deklarisanih promenljivih ima = 1
+INFO  10:58:35,219 - ===================================
+INFO  10:58:35,225 - Parsiranje uspesno zavrseno!

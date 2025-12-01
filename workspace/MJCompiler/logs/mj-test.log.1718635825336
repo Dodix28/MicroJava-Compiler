@@ -1,0 +1,12 @@
+INFO  16:39:03,424 - Compiling source file: C:\pp1DomaciNanova\workspace\MJCompiler\test\program.mj
+INFO  16:39:03,435 - #2 program
+INFO  16:39:03,435 - #8 MyProgram
+INFO  16:39:03,436 - #18 {
+INFO  16:39:03,439 - #19 }
+INFO  16:39:03,440 - ProgramDerived1(
+  ProgramNameDerived1(
+  ) [ProgramNameDerived1]
+) [ProgramDerived1]
+INFO  16:39:03,440 - ===================================
+INFO  16:39:03,442 -  Print count calls = 0
+INFO  16:39:03,443 -  Deklarisanih promenljivih ima = 0
